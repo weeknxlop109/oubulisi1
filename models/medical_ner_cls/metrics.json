@@ -1,0 +1,206 @@
+{
+  "trained_at": "2026-11-19T19:05:14",
+  "device": "cuda",
+  "split": {
+    "train": 1185,
+    "val": 148,
+    "test": 148
+  },
+  "epochs": {
+    "ner": 12,
+    "intent": 10
+  },
+  "learning_rate": 0.001,
+  "ner_history": [
+    {
+      "epoch": 1,
+      "loss": 16.5644,
+      "precision": 0.9184,
+      "recall": 0.298,
+      "f1": 0.45,
+      "token_acc": 0.8963
+    },
+    {
+      "epoch": 2,
+      "loss": 2.4789,
+      "precision": 0.9929,
+      "recall": 0.9205,
+      "f1": 0.9553,
+      "token_acc": 0.9862
+    },
+    {
+      "epoch": 3,
+      "loss": 0.7645,
+      "precision": 0.9724,
+      "recall": 0.9338,
+      "f1": 0.9527,
+      "token_acc": 0.9926
+    },
+    {
+      "epoch": 4,
+      "loss": 0.3789,
+      "precision": 0.9934,
+      "recall": 0.9934,
+      "f1": 0.9934,
+      "token_acc": 0.9989
+    },
+    {
+      "epoch": 5,
+      "loss": 0.2122,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "token_acc": 1.0
+    },
+    {
+      "epoch": 6,
+      "loss": 0.1344,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "token_acc": 1.0
+    },
+    {
+      "epoch": 7,
+      "loss": 0.09,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "token_acc": 1.0
+    },
+    {
+      "epoch": 8,
+      "loss": 0.0664,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "token_acc": 1.0
+    },
+    {
+      "epoch": 9,
+      "loss": 0.0508,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "token_acc": 1.0
+    },
+    {
+      "epoch": 10,
+      "loss": 0.0394,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "token_acc": 1.0
+    },
+    {
+      "epoch": 11,
+      "loss": 0.0327,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "token_acc": 1.0
+    },
+    {
+      "epoch": 12,
+      "loss": 0.0274,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "token_acc": 1.0
+    }
+  ],
+  "intent_history": [
+    {
+      "epoch": 1,
+      "loss": 0.7541,
+      "val_acc": 0.9932
+    },
+    {
+      "epoch": 2,
+      "loss": 0.045,
+      "val_acc": 0.9932
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0204,
+      "val_acc": 0.9932
+    },
+    {
+      "epoch": 4,
+      "loss": 0.0125,
+      "val_acc": 0.9932
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0084,
+      "val_acc": 0.9932
+    },
+    {
+      "epoch": 6,
+      "loss": 0.005,
+      "val_acc": 0.9932
+    },
+    {
+      "epoch": 7,
+      "loss": 0.0038,
+      "val_acc": 0.9932
+    },
+    {
+      "epoch": 8,
+      "loss": 0.0027,
+      "val_acc": 0.9932
+    },
+    {
+      "epoch": 9,
+      "loss": 0.0025,
+      "val_acc": 0.9932
+    },
+    {
+      "epoch": 10,
+      "loss": 0.0019,
+      "val_acc": 0.9932
+    }
+  ],
+  "ner_best": {
+    "f1": 1.0,
+    "epoch": 5
+  },
+  "intent_best": {
+    "acc": 0.9932,
+    "epoch": 1
+  },
+  "ner_test": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "token_acc": 1.0
+  },
+  "intent_test_acc": 0.9932,
+  "comparison": {
+    "lr_1e-3": {
+      "final_train_loss": 0.7908,
+      "val_f1": 0.9556
+    },
+    "lr_2e-5": {
+      "final_train_loss": 31.6575,
+      "val_f1": 0.0
+    },
+    "note": "从零训练时过小学习率 3 轮内收敛明显更慢，故主实验采用 1e-3"
+  },
+  "demo_question": {
+    "question": "风热感冒吃什么药",
+    "ner_confidence": 0.9883,
+    "spans": [
+      {
+        "text": "风热感冒",
+        "label": "Disease",
+        "start": 0,
+        "end": 4
+      }
+    ],
+    "intent": "ask_drug",
+    "intent_confidence": 0.9645
+  },
+  "elapsed_sec": 71.64,
+  "model_path": "E:\\TRAE WORK\\yi\\A\\models\\medical_ner_cls\\best_model.pt"
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1a6fb0">
+<title>医药问答 APP</title>
+<style>
+  :root { --blue:#1a6fb0; --bg:#f4f7fa; --card:#fff; --text:#22303c; --muted:#7b8a99; --ok:#2e9e5b; --warn:#d9822b; --bad:#c0392b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); padding-bottom:84px; }
+  header { background:var(--blue); color:#fff; padding:14px 16px; display:flex; align-items:center; gap:10px; }
+  header h1 { font-size:17px; font-weight:600; }
+  #conn { margin-left:auto; font-size:12px; padding:3px 10px; border-radius:12px; background:rgba(255,255,255,.2); }
+  #conn.ok { background:var(--ok); }
+  #conn.bad { background:var(--bad); }
+  .wrap { max-width:560px; margin:0 auto; padding:12px; }
+  .row { display:flex; gap:8px; margin-bottom:10px; }
+  .row input { flex:1; border:1px solid #d5dee6; border-radius:10px; padding:12px; font-size:16px; }
+  .row button { border:0; background:var(--blue); color:#fff; border-radius:10px; padding:12px 18px; font-size:16px; }
+  .chip { display:inline-block; margin:4px 6px 0 0; background:#e8f1f8; color:var(--blue); border-radius:14px; padding:5px 12px; font-size:13px; }
+  .card { background:var(--card); border-radius:12px; padding:14px; margin-top:10px; box-shadow:0 1px 4px rgba(30,50,70,.08); }
+  .badge { display:inline-block; border-radius:6px; padding:2px 10px; font-size:12px; margin-bottom:8px; background:#e8f1f8; color:var(--blue); }
+  .badge.safety { background:#fdecea; color:var(--bad); }
+  .badge.pending { background:#fdf3e3; color:var(--warn); }
+  .badge.empty, .badge.clarify { background:#f0f2f4; color:var(--muted); }
+  .ans { font-size:16px; line-height:1.6; margin:6px 0; }
+  .ev { font-size:12px; color:var(--muted); background:#f7fafc; border-radius:8px; padding:8px; margin-top:8px; word-break:break-all; }
+  .safety { font-size:13px; color:var(--bad); margin-top:8px; }
+  .time { font-size:12px; color:var(--muted); margin-top:6px; }
+  label.pick { font-size:13px; color:var(--muted); }
+  select { margin:0 0 4px; border:1px solid #d5dee6; border-radius:8px; padding:6px; font-size:13px; width:220px; }
+  footer { position:fixed; bottom:0; left:0; right:0; background:#fff; border-top:1px solid #e5ecf1; padding:10px 16px; font-size:12px; color:var(--muted); text-align:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>医药知识图谱问答</h1>
+  <span id="conn">检测中…</span>
+</header>
+<div class="wrap">
+  <div class="row">
+    <input id="url" value="http://192.168.1.10:8000" placeholder="http://<本机IP>:8000">
+  </div>
+  <label class="pick">API 地址（手机与电脑同一 Wi-Fi，替换为本机 IP）</label>
+  <div class="row">
+    <input id="q" placeholder="例如：风热感冒吃什么药">
+    <button id="askBtn">提问</button>
+  </div>
+  <div id="cases"></div>
+  <div id="out"></div>
+</div>
+<footer>与网页共用同一服务实例 · 同一问句结果一致 · 接口契约见 README_APP.txt</footer>
+<script>
+const $ = (id) => document.getElementById(id);
+let sessionId = "app-" + Date.now();
+
+async function health() {
+  const base = $("url").value.replace(/\/+$/, "");
+  const c = $("conn");
+  try {
+    const r = await fetch(base + "/health", { signal: AbortSignal.timeout(4000) });
+    const j = await r.json();
+    c.textContent = j.status === "ok" ? "已连接" : "异常";
+    c.className = j.status === "ok" ? "ok" : "bad";
+    return base;
+  } catch (e) {
+    c.textContent = "未连接"; c.className = "bad";
+    return null;
+  }
+}
+
+async function loadCases(base) {
+  try {
+    const j = await (await fetch(base + "/demo/cases")).json();
+    $("cases").innerHTML = (j.cases || []).map(c =>
+      `<span class="chip" onclick="askCase('${c.question.replace(/'/g, "\\'")}')">${c.type}</span>`).join("");
+  } catch (e) { /* 忽略 */ }
+}
+
+function askCase(q) { $("q").value = q; ask(); }
+
+function badge(status) {
+  const names = { ok:"正常", empty:"空结果", clarify:"需补充", safety:"高风险", pending:"待扩展" };
+  return `<span class="badge ${status}">${names[status] || status}</span>`;
+}
+
+async function ask() {
+  const base = $("url").value.replace(/\/+$/, "");
+  const q = $("q").value.trim();
+  if (!q) return;
+  $("out").innerHTML = '<div class="card">查询中…</div>';
+  try {
+    const r = await fetch(base + "/ask", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question: q, session_id: sessionId })
+    });
+    const j = await r.json();
+    const chips = (j.entities || []).map(e => `<span class="chip">${e.name || e}</span>`).join("");
+    const t = j.timings || {};
+    const ev = j.evidence ? (j.evidence.path ? "证据路径：" + j.evidence.path.join(" → ") + "<br>" : "") +
+      (j.evidence.cypher ? `<code>${j.evidence.cypher}</code>` : "") : "";
+    $("out").innerHTML = `<div class="card">${badge(j.status)}
+      <div class="ans">${j.answer || ""}</div>${chips}
+      ${ev ? `<div class="ev">${ev}</div>` : ""}
+      ${j.safety_note ? `<div class="safety">⚕ ${j.safety_note}</div>` : ""}
+      <div class="time">总 ${t.total_ms ?? "-"}ms · 模型 ${t.model_ms ?? "-"}ms · 查询 ${t.query_ms ?? "-"}ms · 意图 ${j.intent}(${j.confidence?.intent ?? "-"})</div>
+    </div>`;
+  } catch (e) {
+    $("out").innerHTML = `<div class="card">请求失败：${e.message}，请检查 API 地址。</div>`;
+  }
+}
+
+$("askBtn").onclick = ask;
+$("q").addEventListener("keydown", e => { if (e.key === "Enter") ask(); });
+$("url").addEventListener("change", async () => { const b = await health(); if (b) loadCases(b); });
+(async () => { const b = await health(); if (b) loadCases(b); })();
+</script>
+</body>
+</html>

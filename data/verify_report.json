@@ -1,0 +1,320 @@
+{
+  "ran_at": "2026-11-20T16:11:12",
+  "passed": 20,
+  "total": 20,
+  "all_pass": true,
+  "results": [
+    {
+      "id": "S3",
+      "name": "关键文件齐备",
+      "pass": true,
+      "detail": {
+        "missing": [],
+        "required": 30
+      }
+    },
+    {
+      "id": "S2",
+      "name": "Python 可编译",
+      "pass": true,
+      "detail": "compileall ok"
+    },
+    {
+      "id": "S1",
+      "name": "配置中心齐备（本地存储替代 compose 语法检查）",
+      "pass": true,
+      "detail": {
+        "store_mode": "local",
+        "conf_threshold": 0.75,
+        "model_path": "E:\\TRAE WORK\\yi\\A\\models\\medical_ner_cls\\best_model.pt",
+        "dict_path": "E:\\TRAE WORK\\yi\\A\\resource\\dict\\entity_dict.json",
+        "graph_path": "E:\\TRAE WORK\\yi\\A\\data\\graph.json",
+        "kb_require_review": false,
+        "backup_dry_run": true
+      }
+    },
+    {
+      "id": "S4",
+      "name": "脚本齐备（ps1 + sh 跨平台）",
+      "pass": true,
+      "detail": [
+        "up.ps1",
+        "verify.ps1",
+        "up.sh",
+        "verify.sh",
+        "init.sh"
+      ]
+    },
+    {
+      "id": "S1b",
+      "name": "docker-compose 语法检查",
+      "pass": true,
+      "detail": "compose config ok / 本机无 docker 按文件存在回退"
+    },
+    {
+      "id": "V1",
+      "name": "存储健康与连通（raw/clean/题库/日志四集合 + Cypher RETURN 1）",
+      "pass": true,
+      "detail": {
+        "raw_kb": 8,
+        "clean_kb": 8,
+        "question_bank": 164,
+        "qa_logs": 521
+      }
+    },
+    {
+      "id": "V2",
+      "name": "图谱完整性（节点/关系/方向/关键属性/重跑不翻倍）",
+      "pass": true,
+      "detail": {
+        "stats": {
+          "nodes": 128,
+          "edges": 140,
+          "nodes_by_label": {
+            "Disease": 20,
+            "Drug": 24,
+            "Symptom": 42,
+            "Check": 16,
+            "Prevent": 26
+          },
+          "edges_by_type": {
+            "HAS_DRUG": 24,
+            "HAS_SYMPTOM": 48,
+            "NEED_CHECK": 23,
+            "PREVENTS": 33,
+            "ALIAS_OF": 12
+          },
+          "alias_only_nodes": 12
+        },
+        "rel_ok": true,
+        "direction_ok": true,
+        "prop_ok": true,
+        "idempotent": true
+      }
+    },
+    {
+      "id": "V3",
+      "name": "问答回归（自动题库逐条执行）",
+      "pass": true,
+      "detail": {
+        "total": 112,
+        "passed": 112,
+        "rate": 1.0,
+        "target": 0.95,
+        "failures": []
+      }
+    },
+    {
+      "id": "V4",
+      "name": "安全兜底 4 条分支",
+      "pass": true,
+      "detail": {
+        "正常": {
+          "expected": "ok",
+          "status": "ok",
+          "has_note": true
+        },
+        "空结果": {
+          "expected": "empty",
+          "status": "empty",
+          "has_note": true
+        },
+        "低置信度": {
+          "expected": "clarify",
+          "status": "clarify",
+          "has_note": true
+        },
+        "高风险": {
+          "expected": "safety",
+          "status": "safety",
+          "has_note": true
+        }
+      }
+    },
+    {
+      "id": "V5",
+      "name": "自动入库与幂等",
+      "pass": true,
+      "detail": {
+        "nodes": [
+          128,
+          133,
+          133
+        ],
+        "first": {
+          "scanned": 9,
+          "added": 1,
+          "skipped": 8,
+          "questions": 183
+        },
+        "second": {
+          "scanned": 9,
+          "added": 0,
+          "skipped": 9
+        }
+      }
+    },
+    {
+      "id": "V6",
+      "name": "备份与敏感扫描",
+      "pass": true,
+      "detail": {
+        "result": {
+          "status": "dry_run",
+          "package": "backup-20261120-1610.tar.gz",
+          "package_path": "E:\\TRAE WORK\\yi\\A\\data\\backup\\backup-20261120-1610.tar.gz",
+          "scanned": 57,
+          "hits": 0,
+          "at": "2026-11-20T16:10:49",
+          "note": "BACKUP_DRY_RUN=true，仅打包与扫描，不推送"
+        },
+        "scan_probe_hit": true
+      }
+    },
+    {
+      "id": "V6b",
+      "name": "备份真实推送演练（本地 bare 仓库）",
+      "pass": true,
+      "detail": {
+        "commit": "f040b81",
+        "bare_head": "f040b81"
+      }
+    },
+    {
+      "id": "V7",
+      "name": "演示可达（/health /ask / 页面 / manifest，同问结果一致）",
+      "pass": true,
+      "detail": {
+        "health": true,
+        "ask_1": "ok",
+        "ask_2": "ok",
+        "same_answer": true,
+        "page_ok": true,
+        "manifest_ok": true,
+        "demo_cases": 8,
+        "evidence": "demo-web.html + demo-web.json + demo-cases.json"
+      }
+    },
+    {
+      "id": "A-V1",
+      "name": "运行指标基线（总耗时/模型段/NER 置信度/意图置信度）",
+      "pass": true,
+      "detail": {
+        "total_ms": 46.38,
+        "model_ms": 6.1,
+        "ner": 0.9883,
+        "intent": 0.9645,
+        "targets": {
+          "total_ms": 1820,
+          "model_ms": 210,
+          "ner": 0.94,
+          "intent": 0.96
+        }
+      }
+    },
+    {
+      "id": "A-V2",
+      "name": "9 类问句覆盖（4 已实现 + 5 待扩展含扩展路径）",
+      "pass": true,
+      "detail": {
+        "supported": [
+          "ask_drug",
+          "ask_symptom",
+          "ask_prevent",
+          "ask_check"
+        ],
+        "pending": [
+          "ask_plan",
+          "ask_interaction",
+          "ask_complication",
+          "ask_possible_disease",
+          "ask_cycle"
+        ]
+      }
+    },
+    {
+      "id": "A-V3",
+      "name": "六步中间产物可逐层复现",
+      "pass": true,
+      "detail": {
+        "question": "感冒需要做什么检查",
+        "tokens": [
+          "感冒",
+          "需要",
+          "做",
+          "什么",
+          "检查"
+        ],
+        "entity": "感冒",
+        "intent": "ask_check",
+        "cypher": "MATCH (d:Disease {name:$name})-[:NEED_CHECK]->(m:Check) RETURN m.name AS name ORDER BY name",
+        "facts": [
+          "咽拭子检查",
+          "血常规"
+        ],
+        "answer": "「感冒」通常需要做的检查包括：咽拭子检查、血常规。"
+      }
+    },
+    {
+      "id": "A-V4",
+      "name": "四类排查日志可用",
+      "pass": true,
+      "detail": {
+        "preprocess": true,
+        "ner": true,
+        "cls": true,
+        "query": true
+      }
+    },
+    {
+      "id": "A-V5",
+      "name": "图谱四类错误可检出并可修复",
+      "pass": true,
+      "detail": {
+        "detected": {
+          "duplicates": true,
+          "isolated": true,
+          "reversed": true,
+          "bad_values": true
+        },
+        "after_ok": true,
+        "removed_isolated": []
+      }
+    },
+    {
+      "id": "A-V6",
+      "name": "质量指标绑定评测集（NER / Cypher 命中率）",
+      "pass": true,
+      "detail": {
+        "eval_split": {
+          "train": 1185,
+          "val": 148,
+          "test": 148
+        },
+        "ner_test_f1": 1.0,
+        "cypher_hit_rate": 1.0,
+        "targets": {
+          "ner": 0.94,
+          "cypher": 0.9
+        }
+      }
+    },
+    {
+      "id": "A-V7",
+      "name": "上下文记忆（会话 + 历史 + 指代改写）",
+      "pass": true,
+      "detail": {
+        "turn1": {
+          "status": "ok",
+          "entity": "感冒"
+        },
+        "turn2": {
+          "status": "ok",
+          "entity": "感冒",
+          "intent": "ask_prevent",
+          "rewrite": "感冒 + 那要注意什么"
+        }
+      }
+    }
+  ]
+}

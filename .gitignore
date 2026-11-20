@@ -1,0 +1,18 @@
+# 密钥与本地配置：只提交 .env.example（只含键，无值），禁止提交 .env
+# 交付包中 .env 不随包分发；验收机从 .env.example 初始化（Dockerfile 已自动 cp）
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.pyc
+models/**/*.pt
+models/**/curves.png
+data/raw/
+data/clean/
+data/backup/
+logs/*.log
+logs/*.jsonl
+evidence/*.png
+.screenshots/
+.venv/

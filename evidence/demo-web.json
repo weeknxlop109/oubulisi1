@@ -1,0 +1,86 @@
+{
+  "question": "风热感冒吃什么药",
+  "result": {
+    "entity": "风热感冒",
+    "entity_label": "Disease",
+    "intent": "ask_drug",
+    "intent_name": "推荐药物",
+    "confidence": {
+      "ner": 0.9883,
+      "intent": 0.9645
+    },
+    "trace": {
+      "question": "风热感冒吃什么药",
+      "tokens": [
+        "风热感冒",
+        "吃",
+        "什么",
+        "药"
+      ],
+      "entity": "风热感冒",
+      "entity_label": "Disease",
+      "intent": "ask_drug",
+      "intent_confidence": 0.9645,
+      "ner_confidence": 0.9883,
+      "intent_source": "rule",
+      "spans": [
+        {
+          "text": "风热感冒",
+          "label": "Disease",
+          "canonical": "风热感冒",
+          "start": 0,
+          "end": 4
+        }
+      ],
+      "facts": [
+        "板蓝根颗粒",
+        "桑菊感冒片",
+        "银翘解毒片"
+      ],
+      "cypher": "MATCH (d:Disease {name:$name})-[:HAS_DRUG]->(m:Drug) RETURN m.name AS name ORDER BY name",
+      "answer": "针对「风热感冒」，知识图谱记录的常用药物包括：板蓝根颗粒、桑菊感冒片、银翘解毒片。",
+      "status": "ok"
+    },
+    "timings": {
+      "preprocess_ms": 0.05,
+      "model_ms": 10.58,
+      "query_ms": 11.46,
+      "total_ms": 49.38
+    },
+    "session_id": null,
+    "facts": [
+      "板蓝根颗粒",
+      "桑菊感冒片",
+      "银翘解毒片"
+    ],
+    "evidence": {
+      "cypher": "MATCH (d:Disease {name:$name})-[:HAS_DRUG]->(m:Drug) RETURN m.name AS name ORDER BY name",
+      "params": {
+        "name": "风热感冒"
+      },
+      "rows": [
+        {
+          "name": "板蓝根颗粒"
+        },
+        {
+          "name": "桑菊感冒片"
+        },
+        {
+          "name": "银翘解毒片"
+        }
+      ],
+      "path": [
+        "(:Disease {name:'风热感冒'})-[:HAS_DRUG]->(:Drug {name:'板蓝根颗粒'})",
+        "(:Disease {name:'风热感冒'})-[:HAS_DRUG]->(:Drug {name:'桑菊感冒片'})",
+        "(:Disease {name:'风热感冒'})-[:HAS_DRUG]->(:Drug {name:'银翘解毒片'})"
+      ],
+      "source": "示例种子数据(教材要点摘要)",
+      "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md"
+    },
+    "status": "ok",
+    "answer": "针对「风热感冒」，知识图谱记录的常用药物包括：板蓝根颗粒、桑菊感冒片、银翘解毒片。",
+    "safety_note": "以上信息仅供健康科普参考，不能替代医生诊断；症状持续或加重请及时就医。",
+    "answered_at": "2026-11-20T16:11:11"
+  },
+  "captured_at": "2026-11-20T16:11:12"
+}

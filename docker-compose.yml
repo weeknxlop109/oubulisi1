@@ -1,0 +1,25 @@
+# 方案 A 本地存储架构：无外部数据库依赖，单服务即完整系统。
+# 验收用法：docker compose -p medqa_<提交编号> up -d --wait
+#   首次 up 会自动执行 init（入库 -> 建图 -> 题库 -> 训练），随后起服务并健康检查。
+services:
+  medqa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: medqa-a:latest
+    container_name: medqa
+    ports:
+      - "8000:8000"
+    environment:
+      # 首次构建无模型/图谱：init 会自动训练与建图（幂等，可重复执行）
+      - KB_SYNC_INTERVAL_MIN=${KB_SYNC_INTERVAL_MIN:-10}
+      - BACKUP_CRON_HOUR=${BACKUP_CRON_HOUR:-2}
+      - BACKUP_DRY_RUN=${BACKUP_DRY_RUN:-true}
+      - BACKUP_REPO=${BACKUP_REPO:-}
+    volumes:
+      # 数据/模型/日志/备份全部落宿主机卷：down 后 up 数据直接恢复（V6 复现性）
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+      - ./resource:/app/resource
+    restart: unless-stopped

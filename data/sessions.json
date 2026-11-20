@@ -1,0 +1,107 @@
+{
+  "verify-1795086346": [
+    {
+      "ts": "2026-11-19T19:05:46",
+      "question": "感冒吃什么药",
+      "entity": "感冒",
+      "intent": "ask_drug",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-11-19T19:05:46",
+      "question": "那要注意什么",
+      "entity": "感冒",
+      "intent": "ask_prevent",
+      "status": "ok"
+    }
+  ],
+  "verify-1795086396": [
+    {
+      "ts": "2026-11-19T19:06:36",
+      "question": "感冒吃什么药",
+      "entity": "感冒",
+      "intent": "ask_drug",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-11-19T19:06:36",
+      "question": "那要注意什么",
+      "entity": "感冒",
+      "intent": "ask_prevent",
+      "status": "ok"
+    }
+  ],
+  "verify-1795086449": [
+    {
+      "ts": "2026-11-19T19:07:29",
+      "question": "感冒吃什么药",
+      "entity": "感冒",
+      "intent": "ask_drug",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-11-19T19:07:29",
+      "question": "那要注意什么",
+      "entity": "感冒",
+      "intent": "ask_prevent",
+      "status": "ok"
+    }
+  ],
+  "9967d79b-e45d-4d33-928e-139a2858f276": [
+    {
+      "ts": "2026-11-19T19:10:50",
+      "question": "风热感冒吃什么药",
+      "entity": "风热感冒",
+      "intent": "ask_drug",
+      "status": "ok"
+    }
+  ],
+  "verify-1795086768": [
+    {
+      "ts": "2026-11-19T19:12:48",
+      "question": "感冒吃什么药",
+      "entity": "感冒",
+      "intent": "ask_drug",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-11-19T19:12:48",
+      "question": "那要注意什么",
+      "entity": "感冒",
+      "intent": "ask_prevent",
+      "status": "ok"
+    }
+  ],
+  "2feada3f-cccd-4899-b029-c944fb5e7867": [
+    {
+      "ts": "2026-11-19T19:16:53",
+      "question": "风热感冒吃什么药",
+      "entity": "风热感冒",
+      "intent": "ask_drug",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-11-19T19:16:58",
+      "question": "感冒有哪些症状",
+      "entity": "感冒",
+      "intent": "ask_symptom",
+      "status": "ok"
+    }
+  ],
+  "verify-1795162272": [
+    {
+      "ts": "2026-11-20T16:11:12",
+      "question": "感冒吃什么药",
+      "entity": "感冒",
+      "intent": "ask_drug",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-11-20T16:11:12",
+      "question": "那要注意什么",
+      "entity": "感冒",
+      "intent": "ask_prevent",
+      "status": "ok"
+    }
+  ]
+}

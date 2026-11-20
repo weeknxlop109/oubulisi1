@@ -1,0 +1,10 @@
+{
+  "ran_at": "2026-11-20T16:10:46",
+  "total": 112,
+  "passed": 112,
+  "failed": 0,
+  "pass_rate": 1.0,
+  "target": 0.95,
+  "pass": true,
+  "failures": []
+}

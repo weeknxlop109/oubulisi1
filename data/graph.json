@@ -1,0 +1,2586 @@
+{
+  "nodes": [
+    {
+      "label": "Check",
+      "name": "口服葡萄糖耐量试验",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "咽拭子检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "多导睡眠监测",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "尿常规",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "幽门螺杆菌检测",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "心电图",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "甲状腺功能检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "睡眠评估",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "空腹血糖",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "糖化血红蛋白",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "胃镜",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "血压测量",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "血常规",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "血生化检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "过敏原检测",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Check",
+      "name": "鼻内镜检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "2型糖尿病",
+      "props": {
+        "desc": "2型糖尿病是以胰岛素抵抗和血糖升高为主要特征的慢性代谢性疾病,需要饮食、运动和药物综合管理。",
+        "type": "内分泌代谢疾病",
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "cycle": "长期管理",
+        "plan": "以饮食运动干预为基础,按血糖情况使用口服降糖药或胰岛素,定期复查并发症"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "二型糖尿病",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "伤风",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "入睡困难",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "原发性高血压",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "变应性鼻炎",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "失眠",
+      "props": {
+        "desc": "失眠是以入睡困难、睡眠维持困难或早醒为主要表现,并影响白天功能的常见睡眠障碍。",
+        "type": "精神心理与睡眠障碍",
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "cycle": "2至4周",
+        "plan": "以睡眠卫生教育和认知行为治疗为主,必要时短期使用助眠药物并定期复诊"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "失眠障碍",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "急性胃炎",
+      "props": {
+        "desc": "急性胃炎是胃黏膜的急性炎症,常由饮食不当、酒精刺激或药物损伤引起,以急性上腹不适为主要表现。",
+        "type": "消化系统疾病",
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "cycle": "3至7天",
+        "plan": "去除诱因并对症治疗,必要时使用抑酸与胃黏膜保护药物,持续呕血或剧痛需急诊"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "急性胃黏膜病变",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "感冒",
+      "props": {
+        "desc": "感冒是由病毒感染引起的上呼吸道常见病,以鼻塞、流涕、喷嚏和轻度发热为主要表现,多数可自行缓解。",
+        "type": "呼吸系统疾病",
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "cycle": "3至7天",
+        "plan": "以休息、补液和对症治疗为主,合并细菌感染时需就医评估是否使用抗菌药物"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "成人型糖尿病",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "普通感冒",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "过敏性鼻炎",
+      "props": {
+        "desc": "过敏性鼻炎是接触过敏原后出现的鼻黏膜炎症,以鼻痒、连续喷嚏和清水样鼻涕为主要表现。",
+        "type": "耳鼻咽喉疾病",
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "cycle": "长期管理",
+        "plan": "避免过敏原联合抗组胺药或鼻用糖皮质激素,症状控制不佳时就医评估"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "风寒型感冒",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "风寒感冒",
+      "props": {
+        "desc": "风寒感冒是中医外感证型之一,多因受凉引起,以恶寒重、发热轻、无汗、清涕为主要特点。",
+        "type": "呼吸系统疾病",
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "cycle": "3至7天",
+        "plan": "以辛温解表、注意保暖休息为主,高热或咳嗽加重需就医"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "风热型感冒",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "风热感冒",
+      "props": {
+        "desc": "风热感冒是中医外感证型之一,常见于气温回升季节,以发热重、咽喉肿痛、口渴为主要特点。",
+        "type": "呼吸系统疾病",
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "cycle": "3至7天",
+        "plan": "以疏风清热、对症支持为主,症状加重或高热不退需及时就医"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "高血压",
+      "props": {
+        "desc": "高血压是以动脉血压持续升高为主要表现的心血管疾病,多数患者早期无明显症状,需要长期管理。",
+        "type": "心血管疾病",
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "cycle": "长期管理",
+        "plan": "生活方式干预联合规范降压药物治疗,定期监测血压并按医嘱调整用药"
+      }
+    },
+    {
+      "label": "Disease",
+      "name": "高血压病",
+      "props": {
+        "alias_only": true,
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "二甲双胍",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "复方氨酚烷胺片",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "奥美拉唑",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "安神补脑液",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "对乙酰氨基酚",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "布地奈德鼻喷雾剂",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "布洛芬",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "感冒清热颗粒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "板蓝根颗粒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "枣仁安神胶囊",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "格列美脲",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "桑菊感冒片",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "氢氯噻嗪",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "氨氯地平",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "氨溴索",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "氯雷他定",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "缬沙坦",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "荆防颗粒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "蒙脱石散",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "西替利嗪",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "通宣理肺丸",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "铝碳酸镁",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "银翘解毒片",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Drug",
+      "name": "阿卡波糖",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "佩戴口罩",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "保持室内清洁",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "保持情绪稳定",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "减少睡前使用电子设备",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "勤洗手",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "均衡饮食",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "多饮水",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "定期清洗床品",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "定期监测血糖",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "开窗通风",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "慎用损伤胃黏膜药物",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "戒烟限酒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "控制体重",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "注意保暖",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "清淡饮食",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "睡前避免咖啡因",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "规律作息",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "规律运动",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "规律饮食",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "适度运动",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "适度锻炼增强体质",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "避免受凉",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "避免接触过敏原",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "避免淋雨受凉",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "避免辛辣刺激食物",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Prevent",
+      "name": "限盐",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "上腹痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "乏力",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "体重下降",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "入睡困难",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "发热轻",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "发热重",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "口渴",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "呕吐",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "咳嗽痰白",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "咽喉肿痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "咽痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "多尿",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "多食",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "多饮",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "头晕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "头痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "微恶风寒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "心悸",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "恶寒重",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "恶心",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "打喷嚏",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "无汗",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "早醒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "易醒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "注意力下降",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "流涕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "清水样鼻涕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "白天疲乏",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "眼痒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "睡眠浅",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "耳鸣",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "肢体酸痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "腹胀",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "视物模糊",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "轻度发热",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "连续打喷嚏",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "颈项僵硬",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "食欲减退",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "鼻塞",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "鼻塞清涕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "鼻塞黄涕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    },
+    {
+      "label": "Symptom",
+      "name": "鼻痒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "二型糖尿病",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "成人型糖尿病",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "二甲双胍",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "格列美脲",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "阿卡波糖",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "乏力",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "体重下降",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "多尿",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "多食",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "多饮",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "视物模糊",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "口服葡萄糖耐量试验",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "尿常规",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "空腹血糖",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "糖化血红蛋白",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "均衡饮食",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "定期监测血糖",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "控制体重",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "2型糖尿病",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "规律运动",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "入睡困难",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "失眠障碍",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "安神补脑液",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "枣仁安神胶囊",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "入睡困难",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "早醒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "易醒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "注意力下降",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "白天疲乏",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "睡眠浅",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "多导睡眠监测",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "甲状腺功能检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "睡眠评估",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "减少睡前使用电子设备",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "睡前避免咖啡因",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "规律作息",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "失眠",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "适度运动",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "急性胃黏膜病变",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "奥美拉唑",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "蒙脱石散",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "铝碳酸镁",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "上腹痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "呕吐",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "恶心",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "腹胀",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "食欲减退",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "幽门螺杆菌检测",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "胃镜",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "血常规",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "慎用损伤胃黏膜药物",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "戒烟限酒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "规律饮食",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "急性胃炎",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "避免辛辣刺激食物",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "伤风",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "普通感冒",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "复方氨酚烷胺片",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "对乙酰氨基酚",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "布洛芬",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "氨溴索",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "乏力",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "咽痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "头痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "打喷嚏",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "流涕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "轻度发热",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "鼻塞",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "咽拭子检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "血常规",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "佩戴口罩",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "勤洗手",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "均衡饮食",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "开窗通风",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "规律作息",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "变应性鼻炎",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "布地奈德鼻喷雾剂",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "氯雷他定",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "西替利嗪",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "清水样鼻涕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "眼痒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "连续打喷嚏",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "鼻塞",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "鼻痒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "血常规",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "过敏原检测",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "鼻内镜检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "佩戴口罩",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "保持室内清洁",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "定期清洗床品",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "过敏性鼻炎",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "避免接触过敏原",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "风寒型感冒",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "感冒清热颗粒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "荆防颗粒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "通宣理肺丸",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "发热轻",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "咳嗽痰白",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "头痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "恶寒重",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "无汗",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "肢体酸痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "鼻塞清涕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "咽拭子检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "血常规",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "注意保暖",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "适度锻炼增强体质",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风寒感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "避免淋雨受凉",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "风热型感冒",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "板蓝根颗粒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "桑菊感冒片",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "银翘解毒片",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "发热重",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "口渴",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "咽喉肿痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "头痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "微恶风寒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "鼻塞黄涕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "咽拭子检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "血常规",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "多饮水",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "开窗通风",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "清淡饮食",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "风热感冒",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "避免受凉",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "原发性高血压",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "ALIAS_OF",
+      "to_label": "Disease",
+      "to": "高血压病",
+      "props": {}
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "氢氯噻嗪",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "氨氯地平",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "HAS_DRUG",
+      "to_label": "Drug",
+      "to": "缬沙坦",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "乏力",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "头晕",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "头痛",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "心悸",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "耳鸣",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "HAS_SYMPTOM",
+      "to_label": "Symptom",
+      "to": "颈项僵硬",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "尿常规",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "心电图",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "血压测量",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "NEED_CHECK",
+      "to_label": "Check",
+      "to": "血生化检查",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "保持情绪稳定",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "戒烟限酒",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "控制体重",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "规律运动",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    },
+    {
+      "from_label": "Disease",
+      "from": "高血压",
+      "type": "PREVENTS",
+      "to_label": "Prevent",
+      "to": "限盐",
+      "props": {
+        "source": "示例种子数据(教材要点摘要)",
+        "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md",
+        "date": "2026-11-19T19:02:18"
+      }
+    }
+  ]
+}

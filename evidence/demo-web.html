@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#185FA5" />
+<title>医药知识图谱问答系统 · 方案 A</title>
+<link rel="manifest" href="/manifest.json" />
+<link rel="icon" href="/icon.png" />
+<style>
+  :root{
+    --brand:#185FA5; --brand-2:#2C7FBF; --ink:#12263A; --muted:#5D7484;
+    --line:#DCE6EE; --bg:#F4F8FB; --card:#FFFFFF; --ok:#1F9254; --warn:#B7791F;
+    --danger:#C0392B; --info:#2C5FA8; --shadow:0 10px 30px rgba(16,42,67,.08);
+    --radius:16px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Microsoft YaHei","PingFang SC",system-ui,-apple-system,"Segoe UI",sans-serif;
+    color:var(--ink);background:
+      radial-gradient(1200px 600px at 85% -10%, #E3F0FA 0%, transparent 55%),
+      radial-gradient(900px 500px at -10% 110%, #E8F3F1 0%, transparent 50%), var(--bg);
+    min-height:100vh;}
+  header{padding:28px 24px 10px;max-width:1180px;margin:0 auto;display:flex;justify-content:space-between;
+    align-items:flex-start;gap:16px;flex-wrap:wrap}
+  .brand h1{margin:0;font-size:24px;letter-spacing:.5px}
+  .brand p{margin:6px 0 0;color:var(--muted);font-size:13px}
+  .live{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);
+    padding:8px 14px;border-radius:999px;font-size:13px;box-shadow:var(--shadow)}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--muted)}
+  .dot.ok{background:var(--ok);box-shadow:0 0 0 4px rgba(31,146,84,.15)}
+  .dot.bad{background:var(--danger);box-shadow:0 0 0 4px rgba(192,57,43,.15)}
+  main{max-width:1180px;margin:0 auto;padding:12px 24px 48px;display:grid;
+    grid-template-columns:minmax(0,1.55fr) minmax(300px,1fr);gap:18px;align-items:start}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:18px}
+  .card h2{margin:0 0 12px;font-size:15px;display:flex;align-items:center;gap:8px}
+  .card h2 span.tag{font-size:11px;font-weight:500;color:var(--brand);background:#E7F1FA;
+    padding:2px 8px;border-radius:999px}
+  .askrow{display:flex;gap:10px;flex-wrap:wrap}
+  input[type=text]{flex:1;min-width:200px;padding:12px 14px;border:1px solid var(--line);
+    border-radius:12px;font-size:14px;outline:none;background:#FBFCFF}
+  input[type=text]:focus{border-color:var(--brand);box-shadow:0 0 0 3px rgba(24,95,165,.12)}
+  button{cursor:pointer;border:0;border-radius:12px;padding:12px 18px;font-size:14px;
+    font-weight:600;background:var(--brand);color:#fff;transition:.18s}
+  button:hover{background:var(--brand-2)}
+  button.ghost{background:#EDF4FA;color:var(--brand)}
+  button.ghost:hover{background:#E1EDF7}
+  button:disabled{opacity:.55;cursor:not-allowed}
+  .cases{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+  .case{border:1px dashed var(--line);background:#FAFCFE;color:var(--muted);font-size:12px;
+    padding:6px 10px;border-radius:999px;cursor:pointer}
+  .case:hover{border-color:var(--brand);color:var(--brand)}
+  .answer{margin-top:16px;border-top:1px dashed var(--line);padding-top:16px;display:none}
+  .answer.show{display:block}
+  .badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:4px 10px;border-radius:999px;
+    font-weight:600}
+  .badge.ok{background:#E6F5EC;color:var(--ok)}
+  .badge.empty{background:#EEF1F4;color:var(--muted)}
+  .badge.clarify{background:#FDF3E3;color:var(--warn)}
+  .badge.safety{background:#FBEAE8;color:var(--danger)}
+  .badge.pending{background:#EAF0FB;color:var(--info)}
+  .answer p.text{font-size:15px;line-height:1.75;margin:12px 0}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+  .chip{font-size:12px;color:var(--muted);background:#F2F6FA;border:1px solid var(--line);
+    padding:4px 9px;border-radius:8px}
+  .chip b{color:var(--ink);font-weight:600}
+  pre{background:#0F2438;color:#D8E7F5;font-size:12px;line-height:1.65;padding:12px 14px;
+    border-radius:12px;overflow:auto;margin:10px 0 0}
+  .kv{display:grid;grid-template-columns:1fr auto;gap:8px 10px;font-size:13px;margin:0}
+  .kv div:nth-child(odd){color:var(--muted)}
+  .kv div:nth-child(even){text-align:right;font-weight:600}
+  .stat-strong{font-size:22px;font-weight:700;color:var(--brand)}
+  .muted{color:var(--muted);font-size:12px;line-height:1.6}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th,td{text-align:left;padding:7px 6px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600}
+  td.ok{color:var(--ok);font-weight:600}
+  td.pending{color:var(--warn);font-weight:600}
+  .right{display:flex;flex-direction:column;gap:18px}
+  .stack{display:flex;flex-direction:column;gap:8px}
+  .row{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+  .row b{color:var(--ink)}
+  footer{max-width:1180px;margin:0 auto;padding:0 24px 32px;color:var(--muted);font-size:12px}
+  .loading{opacity:.6}
+  @media (max-width: 880px){ main{grid-template-columns:1fr} header{padding-top:20px} }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>医药知识图谱问答系统 <span style="color:var(--brand);font-size:13px">方案 A</span></h1>
+    <p>离线知识生产 + 在线问答：实体识别 → 意图分类 → 参数化 Cypher → 模板答案 · 全程可追溯</p>
+  </div>
+  <div class="live"><span id="liveDot" class="dot"></span><span id="liveText">连接中…</span></div>
+</header>
+
+<main>
+  <section class="card">
+    <h2>智能问答 <span class="tag">9 类问句 · 4 类已实现</span></h2>
+    <div class="askrow">
+      <input id="question" type="text" placeholder="例如：风热感冒吃什么药 / 感冒需要做什么检查" />
+      <button id="askBtn" onclick="ask()">提问</button>
+    </div>
+    <div class="cases" id="cases"></div>
+
+    <div class="answer" id="answerBox">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+        <span id="statusBadge" class="badge empty">-</span>
+        <span class="muted" id="metaLine"></span>
+      </div>
+      <p class="text" id="answerText"></p>
+      <div class="chips" id="chips"></div>
+      <div id="evidenceWrap" style="display:none">
+        <div class="muted" style="margin-top:12px">证据路径（Cypher + 图谱路径）</div>
+        <pre id="evidence"></pre>
+      </div>
+      <div class="muted" id="safetyLine" style="margin-top:12px"></div>
+    </div>
+  </section>
+
+  <aside class="right">
+    <section class="card">
+      <h2>图谱与知识库 <span class="tag">实时</span></h2>
+      <div style="display:flex;gap:18px;margin-bottom:10px">
+        <div><div class="stat-strong" id="nodeCount">-</div><div class="muted">节点</div></div>
+        <div><div class="stat-strong" id="edgeCount">-</div><div class="muted">关系</div></div>
+        <div><div class="stat-strong" id="qbCount">-</div><div class="muted">题库问句</div></div>
+      </div>
+      <div class="kv">
+        <div>文档数 / 待复核</div><div id="docCount">-</div>
+        <div>模型（NER F1 / 意图）</div><div id="modelInfo">-</div>
+        <div>备份状态</div><div id="backupInfo">-</div>
+      </div>
+      <div class="askrow" style="margin-top:14px">
+        <button class="ghost" onclick="syncKB(this)">立即同步 inbox</button>
+        <button class="ghost" onclick="regress(this)">题库回归</button>
+        <button class="ghost" onclick="backup(this)">立即备份</button>
+      </div>
+      <div class="muted" id="adminMsg" style="margin-top:10px"></div>
+    </section>
+
+    <section class="card">
+      <h2>9 类问句覆盖</h2>
+      <table id="coverageTable"><thead><tr><th>问句类型</th><th>状态</th><th>题量</th></tr></thead><tbody></tbody></table>
+    </section>
+  </aside>
+</main>
+
+<footer>
+  答案由知识图谱模板生成，不调用大模型；空结果 / 低置信度 / 高风险 / 待扩展四类兜底均可复现。
+  数据与日志保存在项目内 data/ 与 logs/，可逐层排查 question → tokens → entity → intent → cypher → answer。
+</footer>
+
+<script>
+const SID = (sessionStorage.getItem("medqa_sid") || (crypto.randomUUID ? crypto.randomUUID() : "s" + Date.now()));
+sessionStorage.setItem("medqa_sid", SID);
+const STATUS_TEXT = {ok:"正常回答", empty:"未查询到·不编造", clarify:"需要补充信息", safety:"高风险·建议就医", pending:"待扩展"};
+const STATUS_ICON = {ok:"●", empty:"○", clarify:"?", safety:"!", pending:"…"};
+
+function fmt(v){ return v === undefined || v === null ? "-" : v; }
+
+async function api(path, opts){
+  const res = await fetch(path, opts);
+  if(!res.ok) throw new Error(path + " -> " + res.status);
+  return res.json();
+}
+
+async function loadHealth(){
+  try{
+    const h = await api("/health");
+    document.getElementById("liveDot").className = "dot ok";
+    document.getElementById("liveText").textContent = "服务正常 · 运行 " + h.uptime_sec + "s";
+    const g = h.components.graph;
+    document.getElementById("nodeCount").textContent = g.nodes;
+    document.getElementById("edgeCount").textContent = g.edges;
+    const m = h.components.model;
+    document.getElementById("modelInfo").textContent =
+      (m.status === "ok" ? (fmt(m.ner_test_f1) + " / " + fmt(m.intent_test_acc)) : "未训练");
+    loadBackupInfo();
+  }catch(e){
+    document.getElementById("liveDot").className = "dot bad";
+    document.getElementById("liveText").textContent = "服务未就绪";
+  }
+}
+
+async function loadStats(){
+  try{
+    const s = await api("/admin/kb/stats");
+    document.getElementById("nodeCount").textContent = s.graph.nodes;
+    document.getElementById("edgeCount").textContent = s.graph.edges;
+    document.getElementById("qbCount").textContent = s.question_bank.total;
+    document.getElementById("docCount").textContent = s.documents + " / " + s.documents_pending;
+    const tb = document.querySelector("#coverageTable tbody");
+    tb.innerHTML = s.coverage.intents.map(r =>
+      `<tr><td>${r.name}</td><td class="${r.supported ? "ok" : "pending"}">${r.status}</td><td>${r.count}</td></tr>`
+    ).join("");
+    const reg = s.last_regression.pass_rate !== undefined
+      ? ("回归 " + (s.last_regression.pass_rate*100).toFixed(1) + "%") : "回归未执行";
+    document.getElementById("adminMsg").dataset.regress = reg;
+    document.getElementById("adminMsg").textContent = reg;
+    loadBackupInfo();
+  }catch(e){ /* 静默重试由 loadHealth 呈现 */ }
+}
+
+async function loadBackupInfo(){
+  try{
+    const b = await api("/admin/backup/status");
+    const parts = [b.status || "never"];
+    if(b.package) parts.push(b.package);
+    if(b.commit) parts.push("commit " + b.commit);
+    if(b.hits) parts.push("敏感命中 " + b.hits);
+    document.getElementById("backupInfo").textContent = parts.join(" · ");
+  }catch(e){}
+}
+
+async function loadCases(){
+  try{
+    const d = await api("/demo/cases");
+    document.getElementById("cases").innerHTML = d.cases.map(c =>
+      `<span class="case" onclick="setAsk('${c.question.replace(/'/g,"")}')">${c.type}：${c.question}</span>`
+    ).join("");
+  }catch(e){}
+}
+
+function setAsk(text){
+  document.getElementById("question").value = text;
+  ask();
+}
+
+function badgeClass(status){ return "badge " + (STATUS_TEXT[status] ? status : "empty"); }
+
+async function ask(){
+  const input = document.getElementById("question");
+  const q = input.value.trim();
+  if(!q) return;
+  const btn = document.getElementById("askBtn");
+  btn.disabled = true; btn.textContent = "查询中…";
+  try{
+    const r = await api("/ask", {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({question:q, session_id:SID})});
+    document.getElementById("answerBox").classList.add("show");
+    const badge = document.getElementById("statusBadge");
+    badge.className = badgeClass(r.status);
+    badge.textContent = STATUS_ICON[r.status] + " " + (STATUS_TEXT[r.status] || r.status);
+    document.getElementById("answerText").textContent = r.answer;
+    const t = r.timings || {};
+    document.getElementById("metaLine").textContent =
+      "实体：" + fmt(r.entity) + " · 意图：" + (r.intent_name || "-") +
+      " · NER " + fmt(r.confidence && r.confidence.ner) + " / 意图 " + fmt(r.confidence && r.confidence.intent) +
+      " · 总耗时 " + fmt(t.total_ms) + "ms（模型 " + fmt(t.model_ms) + "ms）";
+    const chips = [];
+    if(r.facts) r.facts.forEach(f => chips.push(`<span class="chip"><b>${f}</b></span>`));
+    if(r.risk_keywords) r.risk_keywords.forEach(k => chips.push(`<span class="chip">风险词：<b>${k}</b></span>`));
+    if(t.query_ms !== undefined) chips.push(`<span class="chip">图谱查询 <b>${t.query_ms}ms</b></span>`);
+    if(r.entity_label) chips.push(`<span class="chip">类型 <b>${r.entity_label}</b></span>`);
+    document.getElementById("chips").innerHTML = chips.join("");
+    if(r.evidence && r.evidence.cypher){
+      document.getElementById("evidenceWrap").style.display = "block";
+      document.getElementById("evidence").textContent =
+        r.evidence.cypher + "\n参数：" + JSON.stringify(r.evidence.params) +
+        "\n来源：" + (r.evidence.source || "-") +
+        "\n\n" + (r.evidence.path || []).join("\n");
+    }else{
+      document.getElementById("evidenceWrap").style.display = "none";
+    }
+    document.getElementById("safetyLine").textContent = r.safety_note || "";
+    loadStats();
+  }catch(e){
+    document.getElementById("answerBox").classList.add("show");
+    document.getElementById("answerText").textContent = "请求失败：" + e.message;
+  }finally{
+    btn.disabled = false; btn.textContent = "提问";
+  }
+}
+
+async function syncKB(btn){
+  btn.disabled = true;
+  document.getElementById("adminMsg").textContent = "同步中…";
+  try{
+    const s = await api("/admin/kb/sync", {method:"POST"});
+    document.getElementById("adminMsg").textContent =
+      `扫描 ${s.scanned}，新增 ${s.added}，跳过 ${s.skipped}，题库 ${s.questions} 条`;
+    loadStats();
+  }catch(e){ document.getElementById("adminMsg").textContent = "同步失败：" + e.message; }
+  finally{ btn.disabled = false; }
+}
+
+async function regress(btn){
+  btn.disabled = true;
+  document.getElementById("adminMsg").textContent = "题库回归执行中…";
+  try{
+    const r = await api("/admin/qbank/regress", {method:"POST"});
+    document.getElementById("adminMsg").textContent =
+      `回归 ${r.passed}/${r.total}，通过率 ${(r.pass_rate*100).toFixed(1)}%（目标 ${(r.target*100)}%）`;
+    loadStats();
+  }catch(e){ document.getElementById("adminMsg").textContent = "回归失败：" + e.message; }
+  finally{ btn.disabled = false; }
+}
+
+async function backup(btn){
+  btn.disabled = true;
+  document.getElementById("adminMsg").textContent = "备份执行中…";
+  try{
+    const r = await api("/admin/backup/run", {method:"POST"});
+    document.getElementById("adminMsg").textContent =
+      `备份 ${r.status}，包：${r.package || "-"}，扫描文件 ${r.scanned}，命中 ${r.hits}`;
+    loadHealth();
+  }catch(e){ document.getElementById("adminMsg").textContent = "备份失败：" + e.message; }
+  finally{ btn.disabled = false; }
+}
+
+document.getElementById("question").addEventListener("keydown", e => { if(e.key === "Enter") ask(); });
+loadHealth(); loadStats(); loadCases();
+setInterval(loadHealth, 15000);
+if("serviceWorker" in navigator){ navigator.serviceWorker.register("/sw.js").catch(()=>{}); }
+</script>
+</body>
+</html>

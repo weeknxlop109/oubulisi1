@@ -1,0 +1,10 @@
+# 本机已安装依赖（不新增安装）：torch / numpy / scikit-learn / fastapi / uvicorn /
+# python-dotenv / matplotlib / pypdf。MongoDB 与 Neo4j 驱动未安装，故存储改为本地实现。
+torch>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+fastapi>=0.115
+uvicorn>=0.34
+python-dotenv>=1.0
+matplotlib>=3.8
+pypdf>=4.0

@@ -1,0 +1,1998 @@
+{
+  "generated_at": "2026-11-20T16:10:48",
+  "total": 164,
+  "items": [
+    {
+      "qid": "Q0001",
+      "question": "2型糖尿病吃什么药",
+      "intent": "ask_drug",
+      "entity": "2型糖尿病",
+      "expected": [
+        "二甲双胍",
+        "格列美脲",
+        "阿卡波糖"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0002",
+      "question": "2型糖尿病用什么药好",
+      "intent": "ask_drug",
+      "entity": "2型糖尿病",
+      "expected": [
+        "二甲双胍",
+        "格列美脲",
+        "阿卡波糖"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0003",
+      "question": "治疗2型糖尿病的药物有哪些",
+      "intent": "ask_drug",
+      "entity": "2型糖尿病",
+      "expected": [
+        "二甲双胍",
+        "格列美脲",
+        "阿卡波糖"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0004",
+      "question": "得了2型糖尿病可以吃什么药",
+      "intent": "ask_drug",
+      "entity": "2型糖尿病",
+      "expected": [
+        "二甲双胍",
+        "格列美脲",
+        "阿卡波糖"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0005",
+      "question": "2型糖尿病有哪些症状",
+      "intent": "ask_symptom",
+      "entity": "2型糖尿病",
+      "expected": [
+        "乏力",
+        "体重下降",
+        "多尿",
+        "多食",
+        "多饮",
+        "视物模糊"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0006",
+      "question": "2型糖尿病的症状表现是什么",
+      "intent": "ask_symptom",
+      "entity": "2型糖尿病",
+      "expected": [
+        "乏力",
+        "体重下降",
+        "多尿",
+        "多食",
+        "多饮",
+        "视物模糊"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0007",
+      "question": "怎么判断是不是2型糖尿病",
+      "intent": "ask_symptom",
+      "entity": "2型糖尿病",
+      "expected": [
+        "乏力",
+        "体重下降",
+        "多尿",
+        "多食",
+        "多饮",
+        "视物模糊"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0008",
+      "question": "2型糖尿病一般有什么表现",
+      "intent": "ask_symptom",
+      "entity": "2型糖尿病",
+      "expected": [
+        "乏力",
+        "体重下降",
+        "多尿",
+        "多食",
+        "多饮",
+        "视物模糊"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0009",
+      "question": "2型糖尿病需要做什么检查",
+      "intent": "ask_check",
+      "entity": "2型糖尿病",
+      "expected": [
+        "口服葡萄糖耐量试验",
+        "尿常规",
+        "空腹血糖",
+        "糖化血红蛋白"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0010",
+      "question": "确诊2型糖尿病要查什么",
+      "intent": "ask_check",
+      "entity": "2型糖尿病",
+      "expected": [
+        "口服葡萄糖耐量试验",
+        "尿常规",
+        "空腹血糖",
+        "糖化血红蛋白"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0011",
+      "question": "2型糖尿病的相关检查有哪些",
+      "intent": "ask_check",
+      "entity": "2型糖尿病",
+      "expected": [
+        "口服葡萄糖耐量试验",
+        "尿常规",
+        "空腹血糖",
+        "糖化血红蛋白"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0012",
+      "question": "怎么预防2型糖尿病",
+      "intent": "ask_prevent",
+      "entity": "2型糖尿病",
+      "expected": [
+        "均衡饮食",
+        "定期监测血糖",
+        "控制体重",
+        "规律运动"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0013",
+      "question": "2型糖尿病如何预防",
+      "intent": "ask_prevent",
+      "entity": "2型糖尿病",
+      "expected": [
+        "均衡饮食",
+        "定期监测血糖",
+        "控制体重",
+        "规律运动"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0014",
+      "question": "2型糖尿病的预防措施有哪些",
+      "intent": "ask_prevent",
+      "entity": "2型糖尿病",
+      "expected": [
+        "均衡饮食",
+        "定期监测血糖",
+        "控制体重",
+        "规律运动"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0015",
+      "question": "失眠吃什么药",
+      "intent": "ask_drug",
+      "entity": "失眠",
+      "expected": [
+        "安神补脑液",
+        "枣仁安神胶囊"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0016",
+      "question": "失眠用什么药好",
+      "intent": "ask_drug",
+      "entity": "失眠",
+      "expected": [
+        "安神补脑液",
+        "枣仁安神胶囊"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0017",
+      "question": "治疗失眠的药物有哪些",
+      "intent": "ask_drug",
+      "entity": "失眠",
+      "expected": [
+        "安神补脑液",
+        "枣仁安神胶囊"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0018",
+      "question": "得了失眠可以吃什么药",
+      "intent": "ask_drug",
+      "entity": "失眠",
+      "expected": [
+        "安神补脑液",
+        "枣仁安神胶囊"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0019",
+      "question": "失眠有哪些症状",
+      "intent": "ask_symptom",
+      "entity": "失眠",
+      "expected": [
+        "入睡困难",
+        "早醒",
+        "易醒",
+        "注意力下降",
+        "白天疲乏",
+        "睡眠浅"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0020",
+      "question": "失眠的症状表现是什么",
+      "intent": "ask_symptom",
+      "entity": "失眠",
+      "expected": [
+        "入睡困难",
+        "早醒",
+        "易醒",
+        "注意力下降",
+        "白天疲乏",
+        "睡眠浅"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0021",
+      "question": "怎么判断是不是失眠",
+      "intent": "ask_symptom",
+      "entity": "失眠",
+      "expected": [
+        "入睡困难",
+        "早醒",
+        "易醒",
+        "注意力下降",
+        "白天疲乏",
+        "睡眠浅"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0022",
+      "question": "失眠一般有什么表现",
+      "intent": "ask_symptom",
+      "entity": "失眠",
+      "expected": [
+        "入睡困难",
+        "早醒",
+        "易醒",
+        "注意力下降",
+        "白天疲乏",
+        "睡眠浅"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0023",
+      "question": "失眠需要做什么检查",
+      "intent": "ask_check",
+      "entity": "失眠",
+      "expected": [
+        "多导睡眠监测",
+        "甲状腺功能检查",
+        "睡眠评估"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0024",
+      "question": "确诊失眠要查什么",
+      "intent": "ask_check",
+      "entity": "失眠",
+      "expected": [
+        "多导睡眠监测",
+        "甲状腺功能检查",
+        "睡眠评估"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0025",
+      "question": "失眠的相关检查有哪些",
+      "intent": "ask_check",
+      "entity": "失眠",
+      "expected": [
+        "多导睡眠监测",
+        "甲状腺功能检查",
+        "睡眠评估"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0026",
+      "question": "怎么预防失眠",
+      "intent": "ask_prevent",
+      "entity": "失眠",
+      "expected": [
+        "减少睡前使用电子设备",
+        "睡前避免咖啡因",
+        "规律作息",
+        "适度运动"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0027",
+      "question": "失眠如何预防",
+      "intent": "ask_prevent",
+      "entity": "失眠",
+      "expected": [
+        "减少睡前使用电子设备",
+        "睡前避免咖啡因",
+        "规律作息",
+        "适度运动"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0028",
+      "question": "失眠的预防措施有哪些",
+      "intent": "ask_prevent",
+      "entity": "失眠",
+      "expected": [
+        "减少睡前使用电子设备",
+        "睡前避免咖啡因",
+        "规律作息",
+        "适度运动"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0029",
+      "question": "急性胃炎吃什么药",
+      "intent": "ask_drug",
+      "entity": "急性胃炎",
+      "expected": [
+        "奥美拉唑",
+        "蒙脱石散",
+        "铝碳酸镁"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0030",
+      "question": "急性胃炎用什么药好",
+      "intent": "ask_drug",
+      "entity": "急性胃炎",
+      "expected": [
+        "奥美拉唑",
+        "蒙脱石散",
+        "铝碳酸镁"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0031",
+      "question": "治疗急性胃炎的药物有哪些",
+      "intent": "ask_drug",
+      "entity": "急性胃炎",
+      "expected": [
+        "奥美拉唑",
+        "蒙脱石散",
+        "铝碳酸镁"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0032",
+      "question": "得了急性胃炎可以吃什么药",
+      "intent": "ask_drug",
+      "entity": "急性胃炎",
+      "expected": [
+        "奥美拉唑",
+        "蒙脱石散",
+        "铝碳酸镁"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0033",
+      "question": "急性胃炎有哪些症状",
+      "intent": "ask_symptom",
+      "entity": "急性胃炎",
+      "expected": [
+        "上腹痛",
+        "呕吐",
+        "恶心",
+        "腹胀",
+        "食欲减退"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0034",
+      "question": "急性胃炎的症状表现是什么",
+      "intent": "ask_symptom",
+      "entity": "急性胃炎",
+      "expected": [
+        "上腹痛",
+        "呕吐",
+        "恶心",
+        "腹胀",
+        "食欲减退"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0035",
+      "question": "怎么判断是不是急性胃炎",
+      "intent": "ask_symptom",
+      "entity": "急性胃炎",
+      "expected": [
+        "上腹痛",
+        "呕吐",
+        "恶心",
+        "腹胀",
+        "食欲减退"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0036",
+      "question": "急性胃炎一般有什么表现",
+      "intent": "ask_symptom",
+      "entity": "急性胃炎",
+      "expected": [
+        "上腹痛",
+        "呕吐",
+        "恶心",
+        "腹胀",
+        "食欲减退"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0037",
+      "question": "急性胃炎需要做什么检查",
+      "intent": "ask_check",
+      "entity": "急性胃炎",
+      "expected": [
+        "幽门螺杆菌检测",
+        "胃镜",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0038",
+      "question": "确诊急性胃炎要查什么",
+      "intent": "ask_check",
+      "entity": "急性胃炎",
+      "expected": [
+        "幽门螺杆菌检测",
+        "胃镜",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0039",
+      "question": "急性胃炎的相关检查有哪些",
+      "intent": "ask_check",
+      "entity": "急性胃炎",
+      "expected": [
+        "幽门螺杆菌检测",
+        "胃镜",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0040",
+      "question": "怎么预防急性胃炎",
+      "intent": "ask_prevent",
+      "entity": "急性胃炎",
+      "expected": [
+        "慎用损伤胃黏膜药物",
+        "戒烟限酒",
+        "规律饮食",
+        "避免辛辣刺激食物"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0041",
+      "question": "急性胃炎如何预防",
+      "intent": "ask_prevent",
+      "entity": "急性胃炎",
+      "expected": [
+        "慎用损伤胃黏膜药物",
+        "戒烟限酒",
+        "规律饮食",
+        "避免辛辣刺激食物"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0042",
+      "question": "急性胃炎的预防措施有哪些",
+      "intent": "ask_prevent",
+      "entity": "急性胃炎",
+      "expected": [
+        "慎用损伤胃黏膜药物",
+        "戒烟限酒",
+        "规律饮食",
+        "避免辛辣刺激食物"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0043",
+      "question": "感冒吃什么药",
+      "intent": "ask_drug",
+      "entity": "感冒",
+      "expected": [
+        "复方氨酚烷胺片",
+        "对乙酰氨基酚",
+        "布洛芬",
+        "氨溴索"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0044",
+      "question": "感冒用什么药好",
+      "intent": "ask_drug",
+      "entity": "感冒",
+      "expected": [
+        "复方氨酚烷胺片",
+        "对乙酰氨基酚",
+        "布洛芬",
+        "氨溴索"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0045",
+      "question": "治疗感冒的药物有哪些",
+      "intent": "ask_drug",
+      "entity": "感冒",
+      "expected": [
+        "复方氨酚烷胺片",
+        "对乙酰氨基酚",
+        "布洛芬",
+        "氨溴索"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0046",
+      "question": "得了感冒可以吃什么药",
+      "intent": "ask_drug",
+      "entity": "感冒",
+      "expected": [
+        "复方氨酚烷胺片",
+        "对乙酰氨基酚",
+        "布洛芬",
+        "氨溴索"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0047",
+      "question": "感冒有哪些症状",
+      "intent": "ask_symptom",
+      "entity": "感冒",
+      "expected": [
+        "乏力",
+        "咽痛",
+        "头痛",
+        "打喷嚏",
+        "流涕",
+        "轻度发热",
+        "鼻塞"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0048",
+      "question": "感冒的症状表现是什么",
+      "intent": "ask_symptom",
+      "entity": "感冒",
+      "expected": [
+        "乏力",
+        "咽痛",
+        "头痛",
+        "打喷嚏",
+        "流涕",
+        "轻度发热",
+        "鼻塞"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0049",
+      "question": "怎么判断是不是感冒",
+      "intent": "ask_symptom",
+      "entity": "感冒",
+      "expected": [
+        "乏力",
+        "咽痛",
+        "头痛",
+        "打喷嚏",
+        "流涕",
+        "轻度发热",
+        "鼻塞"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0050",
+      "question": "感冒一般有什么表现",
+      "intent": "ask_symptom",
+      "entity": "感冒",
+      "expected": [
+        "乏力",
+        "咽痛",
+        "头痛",
+        "打喷嚏",
+        "流涕",
+        "轻度发热",
+        "鼻塞"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0051",
+      "question": "感冒需要做什么检查",
+      "intent": "ask_check",
+      "entity": "感冒",
+      "expected": [
+        "咽拭子检查",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0052",
+      "question": "确诊感冒要查什么",
+      "intent": "ask_check",
+      "entity": "感冒",
+      "expected": [
+        "咽拭子检查",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0053",
+      "question": "感冒的相关检查有哪些",
+      "intent": "ask_check",
+      "entity": "感冒",
+      "expected": [
+        "咽拭子检查",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0054",
+      "question": "怎么预防感冒",
+      "intent": "ask_prevent",
+      "entity": "感冒",
+      "expected": [
+        "佩戴口罩",
+        "勤洗手",
+        "均衡饮食",
+        "开窗通风",
+        "规律作息"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0055",
+      "question": "感冒如何预防",
+      "intent": "ask_prevent",
+      "entity": "感冒",
+      "expected": [
+        "佩戴口罩",
+        "勤洗手",
+        "均衡饮食",
+        "开窗通风",
+        "规律作息"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0056",
+      "question": "感冒的预防措施有哪些",
+      "intent": "ask_prevent",
+      "entity": "感冒",
+      "expected": [
+        "佩戴口罩",
+        "勤洗手",
+        "均衡饮食",
+        "开窗通风",
+        "规律作息"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0057",
+      "question": "过敏性鼻炎吃什么药",
+      "intent": "ask_drug",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "布地奈德鼻喷雾剂",
+        "氯雷他定",
+        "西替利嗪"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0058",
+      "question": "过敏性鼻炎用什么药好",
+      "intent": "ask_drug",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "布地奈德鼻喷雾剂",
+        "氯雷他定",
+        "西替利嗪"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0059",
+      "question": "治疗过敏性鼻炎的药物有哪些",
+      "intent": "ask_drug",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "布地奈德鼻喷雾剂",
+        "氯雷他定",
+        "西替利嗪"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0060",
+      "question": "得了过敏性鼻炎可以吃什么药",
+      "intent": "ask_drug",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "布地奈德鼻喷雾剂",
+        "氯雷他定",
+        "西替利嗪"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0061",
+      "question": "过敏性鼻炎有哪些症状",
+      "intent": "ask_symptom",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "清水样鼻涕",
+        "眼痒",
+        "连续打喷嚏",
+        "鼻塞",
+        "鼻痒"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0062",
+      "question": "过敏性鼻炎的症状表现是什么",
+      "intent": "ask_symptom",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "清水样鼻涕",
+        "眼痒",
+        "连续打喷嚏",
+        "鼻塞",
+        "鼻痒"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0063",
+      "question": "怎么判断是不是过敏性鼻炎",
+      "intent": "ask_symptom",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "清水样鼻涕",
+        "眼痒",
+        "连续打喷嚏",
+        "鼻塞",
+        "鼻痒"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0064",
+      "question": "过敏性鼻炎一般有什么表现",
+      "intent": "ask_symptom",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "清水样鼻涕",
+        "眼痒",
+        "连续打喷嚏",
+        "鼻塞",
+        "鼻痒"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0065",
+      "question": "过敏性鼻炎需要做什么检查",
+      "intent": "ask_check",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "血常规",
+        "过敏原检测",
+        "鼻内镜检查"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0066",
+      "question": "确诊过敏性鼻炎要查什么",
+      "intent": "ask_check",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "血常规",
+        "过敏原检测",
+        "鼻内镜检查"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0067",
+      "question": "过敏性鼻炎的相关检查有哪些",
+      "intent": "ask_check",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "血常规",
+        "过敏原检测",
+        "鼻内镜检查"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0068",
+      "question": "怎么预防过敏性鼻炎",
+      "intent": "ask_prevent",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "佩戴口罩",
+        "保持室内清洁",
+        "定期清洗床品",
+        "避免接触过敏原"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0069",
+      "question": "过敏性鼻炎如何预防",
+      "intent": "ask_prevent",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "佩戴口罩",
+        "保持室内清洁",
+        "定期清洗床品",
+        "避免接触过敏原"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0070",
+      "question": "过敏性鼻炎的预防措施有哪些",
+      "intent": "ask_prevent",
+      "entity": "过敏性鼻炎",
+      "expected": [
+        "佩戴口罩",
+        "保持室内清洁",
+        "定期清洗床品",
+        "避免接触过敏原"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0071",
+      "question": "风寒感冒吃什么药",
+      "intent": "ask_drug",
+      "entity": "风寒感冒",
+      "expected": [
+        "感冒清热颗粒",
+        "荆防颗粒",
+        "通宣理肺丸"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0072",
+      "question": "风寒感冒用什么药好",
+      "intent": "ask_drug",
+      "entity": "风寒感冒",
+      "expected": [
+        "感冒清热颗粒",
+        "荆防颗粒",
+        "通宣理肺丸"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0073",
+      "question": "治疗风寒感冒的药物有哪些",
+      "intent": "ask_drug",
+      "entity": "风寒感冒",
+      "expected": [
+        "感冒清热颗粒",
+        "荆防颗粒",
+        "通宣理肺丸"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0074",
+      "question": "得了风寒感冒可以吃什么药",
+      "intent": "ask_drug",
+      "entity": "风寒感冒",
+      "expected": [
+        "感冒清热颗粒",
+        "荆防颗粒",
+        "通宣理肺丸"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0075",
+      "question": "风寒感冒有哪些症状",
+      "intent": "ask_symptom",
+      "entity": "风寒感冒",
+      "expected": [
+        "发热轻",
+        "咳嗽痰白",
+        "头痛",
+        "恶寒重",
+        "无汗",
+        "肢体酸痛",
+        "鼻塞清涕"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0076",
+      "question": "风寒感冒的症状表现是什么",
+      "intent": "ask_symptom",
+      "entity": "风寒感冒",
+      "expected": [
+        "发热轻",
+        "咳嗽痰白",
+        "头痛",
+        "恶寒重",
+        "无汗",
+        "肢体酸痛",
+        "鼻塞清涕"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0077",
+      "question": "怎么判断是不是风寒感冒",
+      "intent": "ask_symptom",
+      "entity": "风寒感冒",
+      "expected": [
+        "发热轻",
+        "咳嗽痰白",
+        "头痛",
+        "恶寒重",
+        "无汗",
+        "肢体酸痛",
+        "鼻塞清涕"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0078",
+      "question": "风寒感冒一般有什么表现",
+      "intent": "ask_symptom",
+      "entity": "风寒感冒",
+      "expected": [
+        "发热轻",
+        "咳嗽痰白",
+        "头痛",
+        "恶寒重",
+        "无汗",
+        "肢体酸痛",
+        "鼻塞清涕"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0079",
+      "question": "风寒感冒需要做什么检查",
+      "intent": "ask_check",
+      "entity": "风寒感冒",
+      "expected": [
+        "咽拭子检查",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0080",
+      "question": "确诊风寒感冒要查什么",
+      "intent": "ask_check",
+      "entity": "风寒感冒",
+      "expected": [
+        "咽拭子检查",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0081",
+      "question": "风寒感冒的相关检查有哪些",
+      "intent": "ask_check",
+      "entity": "风寒感冒",
+      "expected": [
+        "咽拭子检查",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0082",
+      "question": "怎么预防风寒感冒",
+      "intent": "ask_prevent",
+      "entity": "风寒感冒",
+      "expected": [
+        "注意保暖",
+        "适度锻炼增强体质",
+        "避免淋雨受凉"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0083",
+      "question": "风寒感冒如何预防",
+      "intent": "ask_prevent",
+      "entity": "风寒感冒",
+      "expected": [
+        "注意保暖",
+        "适度锻炼增强体质",
+        "避免淋雨受凉"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0084",
+      "question": "风寒感冒的预防措施有哪些",
+      "intent": "ask_prevent",
+      "entity": "风寒感冒",
+      "expected": [
+        "注意保暖",
+        "适度锻炼增强体质",
+        "避免淋雨受凉"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0085",
+      "question": "风热感冒吃什么药",
+      "intent": "ask_drug",
+      "entity": "风热感冒",
+      "expected": [
+        "板蓝根颗粒",
+        "桑菊感冒片",
+        "银翘解毒片"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0086",
+      "question": "风热感冒用什么药好",
+      "intent": "ask_drug",
+      "entity": "风热感冒",
+      "expected": [
+        "板蓝根颗粒",
+        "桑菊感冒片",
+        "银翘解毒片"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0087",
+      "question": "治疗风热感冒的药物有哪些",
+      "intent": "ask_drug",
+      "entity": "风热感冒",
+      "expected": [
+        "板蓝根颗粒",
+        "桑菊感冒片",
+        "银翘解毒片"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0088",
+      "question": "得了风热感冒可以吃什么药",
+      "intent": "ask_drug",
+      "entity": "风热感冒",
+      "expected": [
+        "板蓝根颗粒",
+        "桑菊感冒片",
+        "银翘解毒片"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0089",
+      "question": "风热感冒有哪些症状",
+      "intent": "ask_symptom",
+      "entity": "风热感冒",
+      "expected": [
+        "发热重",
+        "口渴",
+        "咽喉肿痛",
+        "头痛",
+        "微恶风寒",
+        "鼻塞黄涕"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0090",
+      "question": "风热感冒的症状表现是什么",
+      "intent": "ask_symptom",
+      "entity": "风热感冒",
+      "expected": [
+        "发热重",
+        "口渴",
+        "咽喉肿痛",
+        "头痛",
+        "微恶风寒",
+        "鼻塞黄涕"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0091",
+      "question": "怎么判断是不是风热感冒",
+      "intent": "ask_symptom",
+      "entity": "风热感冒",
+      "expected": [
+        "发热重",
+        "口渴",
+        "咽喉肿痛",
+        "头痛",
+        "微恶风寒",
+        "鼻塞黄涕"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0092",
+      "question": "风热感冒一般有什么表现",
+      "intent": "ask_symptom",
+      "entity": "风热感冒",
+      "expected": [
+        "发热重",
+        "口渴",
+        "咽喉肿痛",
+        "头痛",
+        "微恶风寒",
+        "鼻塞黄涕"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0093",
+      "question": "风热感冒需要做什么检查",
+      "intent": "ask_check",
+      "entity": "风热感冒",
+      "expected": [
+        "咽拭子检查",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0094",
+      "question": "确诊风热感冒要查什么",
+      "intent": "ask_check",
+      "entity": "风热感冒",
+      "expected": [
+        "咽拭子检查",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0095",
+      "question": "风热感冒的相关检查有哪些",
+      "intent": "ask_check",
+      "entity": "风热感冒",
+      "expected": [
+        "咽拭子检查",
+        "血常规"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0096",
+      "question": "怎么预防风热感冒",
+      "intent": "ask_prevent",
+      "entity": "风热感冒",
+      "expected": [
+        "多饮水",
+        "开窗通风",
+        "清淡饮食",
+        "避免受凉"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0097",
+      "question": "风热感冒如何预防",
+      "intent": "ask_prevent",
+      "entity": "风热感冒",
+      "expected": [
+        "多饮水",
+        "开窗通风",
+        "清淡饮食",
+        "避免受凉"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0098",
+      "question": "风热感冒的预防措施有哪些",
+      "intent": "ask_prevent",
+      "entity": "风热感冒",
+      "expected": [
+        "多饮水",
+        "开窗通风",
+        "清淡饮食",
+        "避免受凉"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0099",
+      "question": "高血压吃什么药",
+      "intent": "ask_drug",
+      "entity": "高血压",
+      "expected": [
+        "氢氯噻嗪",
+        "氨氯地平",
+        "缬沙坦"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0100",
+      "question": "高血压用什么药好",
+      "intent": "ask_drug",
+      "entity": "高血压",
+      "expected": [
+        "氢氯噻嗪",
+        "氨氯地平",
+        "缬沙坦"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0101",
+      "question": "治疗高血压的药物有哪些",
+      "intent": "ask_drug",
+      "entity": "高血压",
+      "expected": [
+        "氢氯噻嗪",
+        "氨氯地平",
+        "缬沙坦"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0102",
+      "question": "得了高血压可以吃什么药",
+      "intent": "ask_drug",
+      "entity": "高血压",
+      "expected": [
+        "氢氯噻嗪",
+        "氨氯地平",
+        "缬沙坦"
+      ],
+      "supported": true,
+      "relation": "HAS_DRUG"
+    },
+    {
+      "qid": "Q0103",
+      "question": "高血压有哪些症状",
+      "intent": "ask_symptom",
+      "entity": "高血压",
+      "expected": [
+        "乏力",
+        "头晕",
+        "头痛",
+        "心悸",
+        "耳鸣",
+        "颈项僵硬"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0104",
+      "question": "高血压的症状表现是什么",
+      "intent": "ask_symptom",
+      "entity": "高血压",
+      "expected": [
+        "乏力",
+        "头晕",
+        "头痛",
+        "心悸",
+        "耳鸣",
+        "颈项僵硬"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0105",
+      "question": "怎么判断是不是高血压",
+      "intent": "ask_symptom",
+      "entity": "高血压",
+      "expected": [
+        "乏力",
+        "头晕",
+        "头痛",
+        "心悸",
+        "耳鸣",
+        "颈项僵硬"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0106",
+      "question": "高血压一般有什么表现",
+      "intent": "ask_symptom",
+      "entity": "高血压",
+      "expected": [
+        "乏力",
+        "头晕",
+        "头痛",
+        "心悸",
+        "耳鸣",
+        "颈项僵硬"
+      ],
+      "supported": true,
+      "relation": "HAS_SYMPTOM"
+    },
+    {
+      "qid": "Q0107",
+      "question": "高血压需要做什么检查",
+      "intent": "ask_check",
+      "entity": "高血压",
+      "expected": [
+        "尿常规",
+        "心电图",
+        "血压测量",
+        "血生化检查"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0108",
+      "question": "确诊高血压要查什么",
+      "intent": "ask_check",
+      "entity": "高血压",
+      "expected": [
+        "尿常规",
+        "心电图",
+        "血压测量",
+        "血生化检查"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0109",
+      "question": "高血压的相关检查有哪些",
+      "intent": "ask_check",
+      "entity": "高血压",
+      "expected": [
+        "尿常规",
+        "心电图",
+        "血压测量",
+        "血生化检查"
+      ],
+      "supported": true,
+      "relation": "NEED_CHECK"
+    },
+    {
+      "qid": "Q0110",
+      "question": "怎么预防高血压",
+      "intent": "ask_prevent",
+      "entity": "高血压",
+      "expected": [
+        "保持情绪稳定",
+        "戒烟限酒",
+        "控制体重",
+        "规律运动",
+        "限盐"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0111",
+      "question": "高血压如何预防",
+      "intent": "ask_prevent",
+      "entity": "高血压",
+      "expected": [
+        "保持情绪稳定",
+        "戒烟限酒",
+        "控制体重",
+        "规律运动",
+        "限盐"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0112",
+      "question": "高血压的预防措施有哪些",
+      "intent": "ask_prevent",
+      "entity": "高血压",
+      "expected": [
+        "保持情绪稳定",
+        "戒烟限酒",
+        "控制体重",
+        "规律运动",
+        "限盐"
+      ],
+      "supported": true,
+      "relation": "PREVENTS"
+    },
+    {
+      "qid": "Q0113",
+      "question": "2型糖尿病怎么治疗",
+      "intent": "ask_plan",
+      "entity": "2型糖尿病",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0114",
+      "question": "2型糖尿病的治疗方案是什么",
+      "intent": "ask_plan",
+      "entity": "2型糖尿病",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0115",
+      "question": "2型糖尿病治疗需要多久",
+      "intent": "ask_cycle",
+      "entity": "2型糖尿病",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0116",
+      "question": "2型糖尿病的治疗周期多长",
+      "intent": "ask_cycle",
+      "entity": "2型糖尿病",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0117",
+      "question": "2型糖尿病会引起哪些并发症",
+      "intent": "ask_complication",
+      "entity": "2型糖尿病",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0118",
+      "question": "失眠怎么治疗",
+      "intent": "ask_plan",
+      "entity": "失眠",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0119",
+      "question": "失眠的治疗方案是什么",
+      "intent": "ask_plan",
+      "entity": "失眠",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0120",
+      "question": "失眠治疗需要多久",
+      "intent": "ask_cycle",
+      "entity": "失眠",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0121",
+      "question": "失眠的治疗周期多长",
+      "intent": "ask_cycle",
+      "entity": "失眠",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0122",
+      "question": "失眠会引起哪些并发症",
+      "intent": "ask_complication",
+      "entity": "失眠",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0123",
+      "question": "急性胃炎怎么治疗",
+      "intent": "ask_plan",
+      "entity": "急性胃炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0124",
+      "question": "急性胃炎的治疗方案是什么",
+      "intent": "ask_plan",
+      "entity": "急性胃炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0125",
+      "question": "急性胃炎治疗需要多久",
+      "intent": "ask_cycle",
+      "entity": "急性胃炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0126",
+      "question": "急性胃炎的治疗周期多长",
+      "intent": "ask_cycle",
+      "entity": "急性胃炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0127",
+      "question": "急性胃炎会引起哪些并发症",
+      "intent": "ask_complication",
+      "entity": "急性胃炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0128",
+      "question": "感冒怎么治疗",
+      "intent": "ask_plan",
+      "entity": "感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0129",
+      "question": "感冒的治疗方案是什么",
+      "intent": "ask_plan",
+      "entity": "感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0130",
+      "question": "感冒治疗需要多久",
+      "intent": "ask_cycle",
+      "entity": "感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0131",
+      "question": "感冒的治疗周期多长",
+      "intent": "ask_cycle",
+      "entity": "感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0132",
+      "question": "感冒会引起哪些并发症",
+      "intent": "ask_complication",
+      "entity": "感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0133",
+      "question": "过敏性鼻炎怎么治疗",
+      "intent": "ask_plan",
+      "entity": "过敏性鼻炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0134",
+      "question": "过敏性鼻炎的治疗方案是什么",
+      "intent": "ask_plan",
+      "entity": "过敏性鼻炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0135",
+      "question": "过敏性鼻炎治疗需要多久",
+      "intent": "ask_cycle",
+      "entity": "过敏性鼻炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0136",
+      "question": "过敏性鼻炎的治疗周期多长",
+      "intent": "ask_cycle",
+      "entity": "过敏性鼻炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0137",
+      "question": "过敏性鼻炎会引起哪些并发症",
+      "intent": "ask_complication",
+      "entity": "过敏性鼻炎",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0138",
+      "question": "风寒感冒怎么治疗",
+      "intent": "ask_plan",
+      "entity": "风寒感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0139",
+      "question": "风寒感冒的治疗方案是什么",
+      "intent": "ask_plan",
+      "entity": "风寒感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0140",
+      "question": "风寒感冒治疗需要多久",
+      "intent": "ask_cycle",
+      "entity": "风寒感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0141",
+      "question": "风寒感冒的治疗周期多长",
+      "intent": "ask_cycle",
+      "entity": "风寒感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0142",
+      "question": "风寒感冒会引起哪些并发症",
+      "intent": "ask_complication",
+      "entity": "风寒感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0143",
+      "question": "风热感冒怎么治疗",
+      "intent": "ask_plan",
+      "entity": "风热感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0144",
+      "question": "风热感冒的治疗方案是什么",
+      "intent": "ask_plan",
+      "entity": "风热感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0145",
+      "question": "风热感冒治疗需要多久",
+      "intent": "ask_cycle",
+      "entity": "风热感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0146",
+      "question": "风热感冒的治疗周期多长",
+      "intent": "ask_cycle",
+      "entity": "风热感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0147",
+      "question": "风热感冒会引起哪些并发症",
+      "intent": "ask_complication",
+      "entity": "风热感冒",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0148",
+      "question": "高血压怎么治疗",
+      "intent": "ask_plan",
+      "entity": "高血压",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0149",
+      "question": "高血压的治疗方案是什么",
+      "intent": "ask_plan",
+      "entity": "高血压",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0150",
+      "question": "高血压治疗需要多久",
+      "intent": "ask_cycle",
+      "entity": "高血压",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0151",
+      "question": "高血压的治疗周期多长",
+      "intent": "ask_cycle",
+      "entity": "高血压",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0152",
+      "question": "高血压会引起哪些并发症",
+      "intent": "ask_complication",
+      "entity": "高血压",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0153",
+      "question": "二甲双胍和复方氨酚烷胺片能一起吃吗",
+      "intent": "ask_interaction",
+      "entity": "二甲双胍",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0154",
+      "question": "二甲双胍与复方氨酚烷胺片有相互作用吗",
+      "intent": "ask_interaction",
+      "entity": "二甲双胍",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0155",
+      "question": "二甲双胍和奥美拉唑能一起吃吗",
+      "intent": "ask_interaction",
+      "entity": "二甲双胍",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0156",
+      "question": "二甲双胍与奥美拉唑有相互作用吗",
+      "intent": "ask_interaction",
+      "entity": "二甲双胍",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0157",
+      "question": "二甲双胍和安神补脑液能一起吃吗",
+      "intent": "ask_interaction",
+      "entity": "二甲双胍",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0158",
+      "question": "二甲双胍与安神补脑液有相互作用吗",
+      "intent": "ask_interaction",
+      "entity": "二甲双胍",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0159",
+      "question": "上腹痛可能是得了什么病",
+      "intent": "ask_possible_disease",
+      "entity": "上腹痛",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0160",
+      "question": "出现上腹痛是什么病",
+      "intent": "ask_possible_disease",
+      "entity": "上腹痛",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0161",
+      "question": "乏力可能是得了什么病",
+      "intent": "ask_possible_disease",
+      "entity": "乏力",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0162",
+      "question": "出现乏力是什么病",
+      "intent": "ask_possible_disease",
+      "entity": "乏力",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0163",
+      "question": "体重下降可能是得了什么病",
+      "intent": "ask_possible_disease",
+      "entity": "体重下降",
+      "expected": [],
+      "supported": false
+    },
+    {
+      "qid": "Q0164",
+      "question": "出现体重下降是什么病",
+      "intent": "ask_possible_disease",
+      "entity": "体重下降",
+      "expected": [],
+      "supported": false
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "docs": {
+    "1e4a1381d449751c4f121cda1d738a17bb55c5758c227f40624c9aca4daa6ecf": {
+      "file": "seed_01_ganmao.md",
+      "name": "感冒",
+      "status": "merged",
+      "at": "2026-11-19T19:02:18",
+      "triples": 20,
+      "nodes": 21,
+      "edges": 20
+    },
+    "196886010d276f55944baa1293246fd8f96ba3355f85f96f1f29a3dd6b89b79f": {
+      "file": "seed_02_fengre.md",
+      "name": "风热感冒",
+      "status": "merged",
+      "at": "2026-11-19T19:02:18",
+      "triples": 16,
+      "nodes": 13,
+      "edges": 16
+    },
+    "2f7fee0db06dee3c1fb0e6d31091d3b40bd891e706f86ffa3bf264fd9386cdac": {
+      "file": "seed_03_fenghan.md",
+      "name": "风寒感冒",
+      "status": "merged",
+      "at": "2026-11-19T19:02:18",
+      "triples": 16,
+      "nodes": 14,
+      "edges": 16
+    },
+    "bbdcddf24056f190a5f2ffeb3ca7ad80ef599f3bea2fb91381b79e3658fb19c4": {
+      "file": "seed_04_gaoxueya.md",
+      "name": "高血压",
+      "status": "merged",
+      "at": "2026-11-19T19:02:18",
+      "triples": 20,
+      "nodes": 19,
+      "edges": 20
+    },
+    "f2282284aeb080e885a404781ba36ca21f93374db35733ba7750176843ad05db": {
+      "file": "seed_05_tangniaobing.md",
+      "name": "2型糖尿病",
+      "status": "merged",
+      "at": "2026-11-19T19:02:18",
+      "triples": 19,
+      "nodes": 15,
+      "edges": 19
+    },
+    "e81a2f52611c043a0c85f987fd96dea8134987b231bf876e7033e68fa6c9a734": {
+      "file": "seed_06_weiyan.md",
+      "name": "急性胃炎",
+      "status": "merged",
+      "at": "2026-11-19T19:02:18",
+      "triples": 16,
+      "nodes": 15,
+      "edges": 16
+    },
+    "43482bc278d0aa0f8c1f07a8325a59be6d5a498c2b4221d2a1c4cf159c1d5cf6": {
+      "file": "seed_07_guominbiyan.md",
+      "name": "过敏性鼻炎",
+      "status": "merged",
+      "at": "2026-11-19T19:02:18",
+      "triples": 16,
+      "nodes": 14,
+      "edges": 16
+    },
+    "9fd2715e016c7ac1d6a81072f953693e08ebb0c08e77169f1d5618f3f3e4584c": {
+      "file": "seed_08_shimian.md",
+      "name": "失眠",
+      "status": "merged",
+      "at": "2026-11-19T19:02:18",
+      "triples": 17,
+      "nodes": 17,
+      "edges": 17
+    }
+  },
+  "urls": {
+    "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md": "1e4a1381d449751c4f121cda1d738a17bb55c5758c227f40624c9aca4daa6ecf",
+    "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md": "196886010d276f55944baa1293246fd8f96ba3355f85f96f1f29a3dd6b89b79f",
+    "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md": "2f7fee0db06dee3c1fb0e6d31091d3b40bd891e706f86ffa3bf264fd9386cdac",
+    "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md": "bbdcddf24056f190a5f2ffeb3ca7ad80ef599f3bea2fb91381b79e3658fb19c4",
+    "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md": "f2282284aeb080e885a404781ba36ca21f93374db35733ba7750176843ad05db",
+    "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md": "e81a2f52611c043a0c85f987fd96dea8134987b231bf876e7033e68fa6c9a734",
+    "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md": "43482bc278d0aa0f8c1f07a8325a59be6d5a498c2b4221d2a1c4cf159c1d5cf6",
+    "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md": "9fd2715e016c7ac1d6a81072f953693e08ebb0c08e77169f1d5618f3f3e4584c",
+    "file://E:/TRAE WORK/yi/A/data/inbox/verify_ingest_1795086333.md": "3fa57f042b19a7553b2fbb8b43d9f8c0187d432f8539f1800fe6e62a0e4f6d3c",
+    "file://E:/TRAE WORK/yi/A/data/inbox/verify_ingest_1795086383.md": "4c09ae9b3cd00b654d8fdca56056ba9c1632a480d3ef1b2135bfe9cdbfbaf99a",
+    "file://E:/TRAE WORK/yi/A/data/inbox/verify_ingest_1795086435.md": "cba5157d547b398aea75e239a0bdf121da8ffd5494f9327d3f8920a7e9c41701",
+    "file://E:/TRAE WORK/yi/A/data/inbox/verify_ingest_1795086754.md": "c418c906f81a1a6460c0555d1c7ba51a18998c93adcb1ec399da2409ae76f7ac",
+    "file://E:/TRAE WORK/yi/A/data/inbox/verify_ingest_1795162247.md": "12a9475a1cdbcfc84862df54edf6da52a27fbf3958c7e42fa6042b3b9f589e2c"
+  },
+  "updated_at": "2026-11-20T16:23:26"
+}

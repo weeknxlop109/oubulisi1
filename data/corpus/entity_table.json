@@ -1,0 +1,606 @@
+[
+  {
+    "name": "风热感冒",
+    "label": "Disease",
+    "type": "呼吸系统疾病",
+    "desc": "风热感冒是中医外感证型之一,常见于气温回升季节,以发热重、咽喉肿痛、口渴为主要特点。",
+    "source": "示例种子数据(教材要点摘要)",
+    "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_02_fengre.md"
+  },
+  {
+    "name": "银翘解毒片",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "板蓝根颗粒",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "桑菊感冒片",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "发热重",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "微恶风寒",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "咽喉肿痛",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "口渴",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "头痛",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "鼻塞黄涕",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "血常规",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "咽拭子检查",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "多饮水",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "清淡饮食",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "避免受凉",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "开窗通风",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "感冒",
+    "label": "Disease",
+    "type": "呼吸系统疾病",
+    "desc": "感冒是由病毒感染引起的上呼吸道常见病,以鼻塞、流涕、喷嚏和轻度发热为主要表现,多数可自行缓解。",
+    "source": "示例种子数据(教材要点摘要)",
+    "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_01_ganmao.md"
+  },
+  {
+    "name": "对乙酰氨基酚",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "布洛芬",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "复方氨酚烷胺片",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "氨溴索",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "鼻塞",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "流涕",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "打喷嚏",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "咽痛",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "轻度发热",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "乏力",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "勤洗手",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "佩戴口罩",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "规律作息",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "均衡饮食",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "风寒感冒",
+    "label": "Disease",
+    "type": "呼吸系统疾病",
+    "desc": "风寒感冒是中医外感证型之一,多因受凉引起,以恶寒重、发热轻、无汗、清涕为主要特点。",
+    "source": "示例种子数据(教材要点摘要)",
+    "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_03_fenghan.md"
+  },
+  {
+    "name": "感冒清热颗粒",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "荆防颗粒",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "通宣理肺丸",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "恶寒重",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "发热轻",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "无汗",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "肢体酸痛",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "鼻塞清涕",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "咳嗽痰白",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "注意保暖",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "避免淋雨受凉",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "适度锻炼增强体质",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "过敏性鼻炎",
+    "label": "Disease",
+    "type": "耳鼻咽喉疾病",
+    "desc": "过敏性鼻炎是接触过敏原后出现的鼻黏膜炎症,以鼻痒、连续喷嚏和清水样鼻涕为主要表现。",
+    "source": "示例种子数据(教材要点摘要)",
+    "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_07_guominbiyan.md"
+  },
+  {
+    "name": "氯雷他定",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "西替利嗪",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "布地奈德鼻喷雾剂",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "鼻痒",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "连续打喷嚏",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "清水样鼻涕",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "眼痒",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "过敏原检测",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "鼻内镜检查",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "避免接触过敏原",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "保持室内清洁",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "定期清洗床品",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "失眠",
+    "label": "Disease",
+    "type": "精神心理与睡眠障碍",
+    "desc": "失眠是以入睡困难、睡眠维持困难或早醒为主要表现,并影响白天功能的常见睡眠障碍。",
+    "source": "示例种子数据(教材要点摘要)",
+    "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_08_shimian.md"
+  },
+  {
+    "name": "安神补脑液",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "枣仁安神胶囊",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "入睡困难",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "睡眠浅",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "易醒",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "早醒",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "白天疲乏",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "注意力下降",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "睡眠评估",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "多导睡眠监测",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "甲状腺功能检查",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "睡前避免咖啡因",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "适度运动",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "减少睡前使用电子设备",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "高血压",
+    "label": "Disease",
+    "type": "心血管疾病",
+    "desc": "高血压是以动脉血压持续升高为主要表现的心血管疾病,多数患者早期无明显症状,需要长期管理。",
+    "source": "示例种子数据(教材要点摘要)",
+    "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_04_gaoxueya.md"
+  },
+  {
+    "name": "氨氯地平",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "缬沙坦",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "氢氯噻嗪",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "头晕",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "颈项僵硬",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "心悸",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "耳鸣",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "血压测量",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "血生化检查",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "心电图",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "尿常规",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "限盐",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "控制体重",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "规律运动",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "戒烟限酒",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "保持情绪稳定",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "急性胃炎",
+    "label": "Disease",
+    "type": "消化系统疾病",
+    "desc": "急性胃炎是胃黏膜的急性炎症,常由饮食不当、酒精刺激或药物损伤引起,以急性上腹不适为主要表现。",
+    "source": "示例种子数据(教材要点摘要)",
+    "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_06_weiyan.md"
+  },
+  {
+    "name": "奥美拉唑",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "铝碳酸镁",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "蒙脱石散",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "上腹痛",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "恶心",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "呕吐",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "腹胀",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "食欲减退",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "胃镜",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "幽门螺杆菌检测",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "规律饮食",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "避免辛辣刺激食物",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "慎用损伤胃黏膜药物",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "2型糖尿病",
+    "label": "Disease",
+    "type": "内分泌代谢疾病",
+    "desc": "2型糖尿病是以胰岛素抵抗和血糖升高为主要特征的慢性代谢性疾病,需要饮食、运动和药物综合管理。",
+    "source": "示例种子数据(教材要点摘要)",
+    "url": "file://E:/TRAE WORK/yi/A/data/inbox/seed_05_tangniaobing.md"
+  },
+  {
+    "name": "二甲双胍",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "阿卡波糖",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "格列美脲",
+    "label": "Drug",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "多饮",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "多尿",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "多食",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "体重下降",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "视物模糊",
+    "label": "Symptom",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "空腹血糖",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "糖化血红蛋白",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "口服葡萄糖耐量试验",
+    "label": "Check",
+    "source": "示例种子数据(教材要点摘要)"
+  },
+  {
+    "name": "定期监测血糖",
+    "label": "Prevent",
+    "source": "示例种子数据(教材要点摘要)"
+  }
+]

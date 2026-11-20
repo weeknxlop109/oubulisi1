@@ -1,0 +1,840 @@
+{
+  "version": 1,
+  "labels": [
+    "Disease",
+    "Drug",
+    "Symptom",
+    "Check",
+    "Prevent"
+  ],
+  "entities": [
+    {
+      "name": "口服葡萄糖耐量试验",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "咽拭子检查",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "多导睡眠监测",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "尿常规",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "幽门螺杆菌检测",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "心电图",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "甲状腺功能检查",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "睡眠评估",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "空腹血糖",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "糖化血红蛋白",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "胃镜",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "血压测量",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "血常规",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "血生化检查",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "过敏原检测",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "鼻内镜检查",
+      "label": "Check",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "2型糖尿病",
+      "label": "Disease",
+      "aliases": [],
+      "desc": "2型糖尿病是以胰岛素抵抗和血糖升高为主要特征的慢性代谢性疾病,需要饮食、运动和药物综合管理。"
+    },
+    {
+      "name": "二型糖尿病",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "伤风",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "入睡困难",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "原发性高血压",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "变应性鼻炎",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "失眠",
+      "label": "Disease",
+      "aliases": [],
+      "desc": "失眠是以入睡困难、睡眠维持困难或早醒为主要表现,并影响白天功能的常见睡眠障碍。"
+    },
+    {
+      "name": "失眠障碍",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "急性胃炎",
+      "label": "Disease",
+      "aliases": [],
+      "desc": "急性胃炎是胃黏膜的急性炎症,常由饮食不当、酒精刺激或药物损伤引起,以急性上腹不适为主要表现。"
+    },
+    {
+      "name": "急性胃黏膜病变",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "感冒",
+      "label": "Disease",
+      "aliases": [],
+      "desc": "感冒是由病毒感染引起的上呼吸道常见病,以鼻塞、流涕、喷嚏和轻度发热为主要表现,多数可自行缓解。"
+    },
+    {
+      "name": "成人型糖尿病",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "普通感冒",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "过敏性鼻炎",
+      "label": "Disease",
+      "aliases": [],
+      "desc": "过敏性鼻炎是接触过敏原后出现的鼻黏膜炎症,以鼻痒、连续喷嚏和清水样鼻涕为主要表现。"
+    },
+    {
+      "name": "风寒型感冒",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "风寒感冒",
+      "label": "Disease",
+      "aliases": [],
+      "desc": "风寒感冒是中医外感证型之一,多因受凉引起,以恶寒重、发热轻、无汗、清涕为主要特点。"
+    },
+    {
+      "name": "风热型感冒",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "风热感冒",
+      "label": "Disease",
+      "aliases": [],
+      "desc": "风热感冒是中医外感证型之一,常见于气温回升季节,以发热重、咽喉肿痛、口渴为主要特点。"
+    },
+    {
+      "name": "高血压",
+      "label": "Disease",
+      "aliases": [],
+      "desc": "高血压是以动脉血压持续升高为主要表现的心血管疾病,多数患者早期无明显症状,需要长期管理。"
+    },
+    {
+      "name": "高血压病",
+      "label": "Disease",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "二甲双胍",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "复方氨酚烷胺片",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "奥美拉唑",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "安神补脑液",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "对乙酰氨基酚",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "布地奈德鼻喷雾剂",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "布洛芬",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "感冒清热颗粒",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "板蓝根颗粒",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "枣仁安神胶囊",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "格列美脲",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "桑菊感冒片",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "氢氯噻嗪",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "氨氯地平",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "氨溴索",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "氯雷他定",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "缬沙坦",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "荆防颗粒",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "蒙脱石散",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "西替利嗪",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "通宣理肺丸",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "铝碳酸镁",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "银翘解毒片",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "阿卡波糖",
+      "label": "Drug",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "佩戴口罩",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "保持室内清洁",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "保持情绪稳定",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "减少睡前使用电子设备",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "勤洗手",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "均衡饮食",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "多饮水",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "定期清洗床品",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "定期监测血糖",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "开窗通风",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "慎用损伤胃黏膜药物",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "戒烟限酒",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "控制体重",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "注意保暖",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "清淡饮食",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "睡前避免咖啡因",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "规律作息",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "规律运动",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "规律饮食",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "适度运动",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "适度锻炼增强体质",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "避免受凉",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "避免接触过敏原",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "避免淋雨受凉",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "避免辛辣刺激食物",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "限盐",
+      "label": "Prevent",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "上腹痛",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "乏力",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "体重下降",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "入睡困难",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "发热轻",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "发热重",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "口渴",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "呕吐",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "咳嗽痰白",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "咽喉肿痛",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "咽痛",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "多尿",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "多食",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "多饮",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "头晕",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "头痛",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "微恶风寒",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "心悸",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "恶寒重",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "恶心",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "打喷嚏",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "无汗",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "早醒",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "易醒",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "注意力下降",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "流涕",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "清水样鼻涕",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "白天疲乏",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "眼痒",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "睡眠浅",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "耳鸣",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "肢体酸痛",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "腹胀",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "视物模糊",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "轻度发热",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "连续打喷嚏",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "颈项僵硬",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "食欲减退",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "鼻塞",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "鼻塞清涕",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "鼻塞黄涕",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    },
+    {
+      "name": "鼻痒",
+      "label": "Symptom",
+      "aliases": [],
+      "desc": ""
+    }
+  ],
+  "words": [
+    "一起",
+    "与",
+    "了",
+    "什么",
+    "会",
+    "会不会",
+    "作用",
+    "做",
+    "出现",
+    "判断",
+    "办法",
+    "及",
+    "可以",
+    "可能",
+    "吃",
+    "后",
+    "吗",
+    "呢",
+    "周期",
+    "和",
+    "哪个",
+    "哪些",
+    "多久",
+    "如何",
+    "导致",
+    "常用",
+    "并发症",
+    "引起",
+    "得了",
+    "怎么",
+    "患有",
+    "推荐",
+    "措施",
+    "方案",
+    "时间",
+    "是",
+    "有",
+    "有没有",
+    "查",
+    "检查",
+    "治疗",
+    "注意",
+    "用",
+    "用药",
+    "症状",
+    "的",
+    "相互",
+    "确诊",
+    "能",
+    "能不能",
+    "药品",
+    "药物",
+    "表现",
+    "要",
+    "该",
+    "还",
+    "需要",
+    "预防"
+  ]
+}

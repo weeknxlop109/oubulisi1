@@ -1,0 +1,42 @@
+[
+  {
+    "type": "正常·用药",
+    "question": "风热感冒吃什么药",
+    "expect": "药品列表 + HAS_DRUG 证据 + 安全提示"
+  },
+  {
+    "type": "正常·症状",
+    "question": "感冒有哪些症状",
+    "expect": "症状列表 + HAS_SYMPTOM 证据"
+  },
+  {
+    "type": "正常·检查",
+    "question": "感冒需要做什么检查",
+    "expect": "检查项 + NEED_CHECK 证据"
+  },
+  {
+    "type": "正常·预防",
+    "question": "怎么预防感冒",
+    "expect": "预防措施 + PREVENTS 证据"
+  },
+  {
+    "type": "空结果",
+    "question": "量子纠缠怎么影响股票",
+    "expect": "拒答，不编造"
+  },
+  {
+    "type": "低置信度",
+    "question": "那个东西能不能吃",
+    "expect": "请求补充信息"
+  },
+  {
+    "type": "高风险",
+    "question": "孕妇胸闷气短怎么办",
+    "expect": "建议及时就医"
+  },
+  {
+    "type": "待扩展",
+    "question": "感冒怎么治疗",
+    "expect": "标注待扩展并给出扩展路径"
+  }
+]
