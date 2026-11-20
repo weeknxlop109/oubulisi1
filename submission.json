@@ -4,7 +4,7 @@
   "class": "待填写",
   "scheme": "A",
   "submitted_at": "2026-11-20T18:00:00+08:00",
-  "repo_url": "git@github.com:<user>/<private-repo>.git",
+  "repo_url": "https://github.com/weeknxlop109/oubulisi1.git",
   "notes": "已知问题：5 类问句（治疗方案/治疗周期/并发症/相互作用/症状推疾病）标注为待扩展并给出扩展路径；本地 JSON 图存储 + 参数化 Cypher 子集执行器替代 Neo4j/MongoDB（验收环境无驱动且不允许新增依赖），接口契约与真实图库保持一致。",
   "integrity_hash": ""
 }
